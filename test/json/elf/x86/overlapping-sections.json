@@ -1,0 +1,4569 @@
+{
+    "binaries": [
+        {
+            "architecture": "x86_64",
+            "aslr": {
+                "is_dso": true
+            },
+            "bin_name": "",
+            "bitness": 64,
+            "branch_stats": {
+                "branch_dict": {
+                    "ja": 35,
+                    "jae": 44,
+                    "jb": 21,
+                    "jbe": 38,
+                    "je": 485,
+                    "jg": 3,
+                    "jl": 9,
+                    "jle": 10,
+                    "jmp": 507,
+                    "jne": 276,
+                    "jns": 15,
+                    "js": 5
+                }
+            },
+            "call_stats": {
+                "call_dict": {
+                    "call": 612
+                }
+            },
+            "cfg": {
+                "blocks": 2628,
+                "functions": 267,
+                "sweep_func_count": 0,
+                "switch_tbl_count": 2
+            },
+            "code_qa": {
+                "imported_func_calls": 205,
+                "imported_func_syms": 51,
+                "imported_not_called": 5
+            },
+            "code_signing": {
+                "is_signed": false
+            },
+            "dep": {
+                "allow_stack_exec": false,
+                "have_gnu_stack": true,
+                "have_openbsd_rand_dat": false
+            },
+            "driver": {
+                "is_driver": false
+            },
+            "endian": "little",
+            "filetype": "ELF",
+            "fortify_src": {
+                "fort_dict": {},
+                "unfort_dict": {
+                    "fprintf": 15,
+                    "memmove": 1,
+                    "sprintf": 1,
+                    "vfprintf": 1
+                }
+            },
+            "func_calls": {
+                "bad_funcs": {
+                    "sprintf": 1
+                },
+                "good_funcs": {},
+                "ick_funcs": {},
+                "risky_funcs": {
+                    "getenv": 11,
+                    "malloc": 3,
+                    "realloc": 4
+                }
+            },
+            "func_insn_stats": {
+                "instruction_dict": {
+                    "14888": {
+                        "add": 1,
+                        "call": 3,
+                        "je": 1,
+                        "mov": 1,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1
+                    },
+                    "15680": {
+                        "jmp": 1,
+                        "mov": 2
+                    },
+                    "15694": {
+                        "call": 4,
+                        "inc": 2,
+                        "je": 4,
+                        "jmp": 4,
+                        "jne": 2,
+                        "lea": 6,
+                        "mov": 11,
+                        "movzx": 2,
+                        "pop": 10,
+                        "push": 5,
+                        "ret": 1,
+                        "test": 6,
+                        "xor": 1
+                    },
+                    "15875": {
+                        "add": 1,
+                        "call": 5,
+                        "cmp": 2,
+                        "inc": 2,
+                        "je": 4,
+                        "jle": 1,
+                        "jmp": 3,
+                        "jne": 2,
+                        "lea": 2,
+                        "mov": 16,
+                        "movsxd": 1,
+                        "movzx": 3,
+                        "neg": 1,
+                        "pop": 6,
+                        "push": 6,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 5,
+                        "xor": 3
+                    },
+                    "16074": {
+                        "add": 2,
+                        "call": 10,
+                        "cmovne": 1,
+                        "cmp": 25,
+                        "inc": 23,
+                        "ja": 1,
+                        "je": 18,
+                        "jl": 1,
+                        "jmp": 20,
+                        "jne": 20,
+                        "lea": 3,
+                        "mov": 112,
+                        "movzx": 15,
+                        "pop": 6,
+                        "push": 6,
+                        "ret": 1,
+                        "sbb": 1,
+                        "sete": 1,
+                        "sub": 1,
+                        "test": 17,
+                        "xor": 3
+                    },
+                    "17201": {
+                        "add": 1,
+                        "call": 6,
+                        "cmp": 6,
+                        "inc": 4,
+                        "je": 9,
+                        "jg": 1,
+                        "jmp": 8,
+                        "jne": 3,
+                        "lea": 2,
+                        "mov": 27,
+                        "movzx": 3,
+                        "pop": 6,
+                        "push": 6,
+                        "ret": 1,
+                        "shl": 1,
+                        "shr": 1,
+                        "sub": 1,
+                        "test": 7,
+                        "xor": 4
+                    },
+                    "17514": {
+                        "add": 20,
+                        "call": 121,
+                        "cmova": 2,
+                        "cmove": 2,
+                        "cmovne": 5,
+                        "cmp": 71,
+                        "dec": 4,
+                        "div": 2,
+                        "imul": 3,
+                        "inc": 39,
+                        "ja": 5,
+                        "jae": 3,
+                        "jb": 3,
+                        "jbe": 4,
+                        "je": 74,
+                        "jg": 1,
+                        "jle": 2,
+                        "jmp": 97,
+                        "jne": 70,
+                        "lea": 145,
+                        "mov": 359,
+                        "movabs": 2,
+                        "movsx": 2,
+                        "movsxd": 5,
+                        "movzx": 27,
+                        "or": 7,
+                        "pop": 6,
+                        "push": 6,
+                        "ret": 1,
+                        "seta": 1,
+                        "sete": 1,
+                        "setne": 3,
+                        "sub": 3,
+                        "test": 102,
+                        "xor": 58
+                    },
+                    "22760": {
+                        "call": 2,
+                        "je": 1,
+                        "lea": 2,
+                        "mov": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "22800": {
+                        "cmp": 1,
+                        "jbe": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "lea": 2,
+                        "mov": 2,
+                        "pop": 2,
+                        "push": 1,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1
+                    },
+                    "22907": {
+                        "call": 3,
+                        "cmp": 3,
+                        "dec": 1,
+                        "inc": 1,
+                        "jae": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "jne": 1,
+                        "lea": 2,
+                        "mov": 6,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "sar": 1,
+                        "sub": 1
+                    },
+                    "23017": {
+                        "call": 1,
+                        "cmp": 1,
+                        "cqo": 1,
+                        "idiv": 1,
+                        "je": 4,
+                        "jmp": 2,
+                        "lea": 3,
+                        "mov": 7,
+                        "pop": 3,
+                        "push": 2,
+                        "ret": 1,
+                        "sar": 1,
+                        "sub": 1,
+                        "test": 3
+                    },
+                    "23054": {
+                        "call": 2,
+                        "jne": 1,
+                        "lea": 1,
+                        "mov": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "23085": {
+                        "call": 2,
+                        "jne": 1,
+                        "lea": 1,
+                        "mov": 4,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "23124": {
+                        "call": 2,
+                        "jne": 1,
+                        "lea": 1,
+                        "mov": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "23155": {
+                        "add": 1,
+                        "and": 6,
+                        "call": 4,
+                        "cmp": 3,
+                        "je": 4,
+                        "jmp": 4,
+                        "jne": 2,
+                        "lea": 2,
+                        "mov": 29,
+                        "or": 1,
+                        "pop": 11,
+                        "push": 6,
+                        "ret": 3,
+                        "sub": 1,
+                        "syscall": 2,
+                        "test": 3
+                    },
+                    "23182": {
+                        "add": 2,
+                        "and": 2,
+                        "call": 5,
+                        "cmp": 2,
+                        "je": 6,
+                        "jmp": 6,
+                        "lea": 2,
+                        "mov": 23,
+                        "or": 1,
+                        "pop": 4,
+                        "push": 4,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 4,
+                        "xor": 1
+                    },
+                    "23258": {
+                        "add": 1,
+                        "call": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "lea": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 4,
+                        "ret": 1,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "23267": {
+                        "and": 2,
+                        "cmp": 1,
+                        "jmp": 2,
+                        "jne": 1,
+                        "jns": 1,
+                        "lea": 1,
+                        "mov": 7,
+                        "ret": 2,
+                        "syscall": 2,
+                        "test": 1,
+                        "xchg": 1,
+                        "xor": 1
+                    },
+                    "23276": {
+                        "jmp": 1
+                    },
+                    "23278": {
+                        "jmp": 1
+                    },
+                    "23280": {
+                        "jmp": 1,
+                        "lea": 1
+                    },
+                    "23289": {
+                        "jmp": 1,
+                        "lea": 1
+                    },
+                    "23298": {
+                        "add": 1,
+                        "je": 2,
+                        "jmp": 1,
+                        "lea": 1,
+                        "mov": 2,
+                        "ret": 2,
+                        "test": 2
+                    },
+                    "23338": {
+                        "call": 1,
+                        "cmovle": 1,
+                        "mov": 3,
+                        "movsxd": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "23368": {
+                        "call": 1,
+                        "mov": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "setne": 1,
+                        "test": 1
+                    },
+                    "23389": {
+                        "call": 1,
+                        "movzx": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "xor": 1
+                    },
+                    "23403": {
+                        "call": 1,
+                        "mov": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "setne": 1,
+                        "test": 1
+                    },
+                    "23424": {
+                        "call": 1,
+                        "movzx": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "xor": 1
+                    },
+                    "23438": {
+                        "call": 1,
+                        "cmovle": 1,
+                        "cmovs": 1,
+                        "cmp": 4,
+                        "ja": 1,
+                        "jae": 1,
+                        "je": 1,
+                        "jmp": 2,
+                        "jne": 1,
+                        "mov": 7,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "test": 2
+                    },
+                    "23509": {
+                        "call": 1,
+                        "mov": 6,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "xor": 1
+                    },
+                    "23540": {
+                        "call": 1,
+                        "mov": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "xor": 1
+                    },
+                    "23553": {
+                        "call": 1,
+                        "cmovs": 1,
+                        "mov": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "23576": {
+                        "js": 1,
+                        "mov": 1,
+                        "movsxd": 1,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "23591": {
+                        "mov": 1,
+                        "ret": 1
+                    },
+                    "23598": {
+                        "movzx": 1,
+                        "ret": 1
+                    },
+                    "23606": {
+                        "call": 1,
+                        "movsx": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "xor": 1
+                    },
+                    "23620": {
+                        "call": 1,
+                        "cmovs": 1,
+                        "mov": 4,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "23648": {
+                        "call": 1,
+                        "mov": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "xor": 1
+                    },
+                    "23661": {
+                        "jmp": 1,
+                        "ret": 1,
+                        "xor": 1
+                    },
+                    "23666": {
+                        "mov": 1,
+                        "ret": 1
+                    },
+                    "23672": {
+                        "ret": 1,
+                        "xor": 1
+                    },
+                    "23675": {
+                        "mov": 1,
+                        "ret": 1
+                    },
+                    "23681": {
+                        "call": 2,
+                        "jmp": 1,
+                        "lea": 1,
+                        "mov": 9,
+                        "pop": 3,
+                        "push": 3
+                    },
+                    "23744": {
+                        "add": 1,
+                        "call": 1,
+                        "je": 1,
+                        "lea": 3,
+                        "mov": 9,
+                        "movaps": 8,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1
+                    },
+                    "23892": {
+                        "call": 2,
+                        "je": 1,
+                        "lea": 3,
+                        "mov": 10,
+                        "movaps": 8,
+                        "sub": 1,
+                        "test": 1
+                    },
+                    "24042": {
+                        "add": 9,
+                        "cmovbe": 1,
+                        "cmp": 9,
+                        "cqo": 2,
+                        "div": 1,
+                        "idiv": 2,
+                        "imul": 7,
+                        "inc": 2,
+                        "jae": 2,
+                        "jb": 1,
+                        "je": 2,
+                        "jmp": 4,
+                        "jne": 4,
+                        "lea": 4,
+                        "mov": 34,
+                        "movzx": 1,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "sete": 1,
+                        "setle": 2,
+                        "setne": 1,
+                        "sub": 2,
+                        "test": 5,
+                        "xor": 7
+                    },
+                    "24429": {
+                        "add": 1,
+                        "cmovg": 1,
+                        "cmovl": 1,
+                        "cmp": 4,
+                        "je": 1,
+                        "jmp": 1,
+                        "jns": 1,
+                        "mov": 10,
+                        "ret": 1,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "24663": {
+                        "cmovb": 1,
+                        "cmp": 3,
+                        "cqo": 1,
+                        "div": 1,
+                        "idiv": 1,
+                        "imul": 1,
+                        "ja": 1,
+                        "je": 2,
+                        "lea": 2,
+                        "mov": 15,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1,
+                        "xor": 2
+                    },
+                    "24919": {
+                        "add": 10,
+                        "cmovbe": 1,
+                        "cmp": 11,
+                        "dec": 4,
+                        "div": 5,
+                        "imul": 7,
+                        "inc": 2,
+                        "jae": 2,
+                        "jb": 1,
+                        "je": 2,
+                        "jmp": 6,
+                        "jne": 6,
+                        "lea": 1,
+                        "mov": 40,
+                        "movzx": 1,
+                        "neg": 2,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sete": 1,
+                        "setne": 1,
+                        "sub": 6,
+                        "test": 3,
+                        "xor": 8
+                    },
+                    "25354": {
+                        "add": 1,
+                        "cmova": 1,
+                        "cmovb": 1,
+                        "cmp": 3,
+                        "je": 2,
+                        "jmp": 1,
+                        "mov": 10,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "25585": {
+                        "cmovae": 1,
+                        "cmp": 4,
+                        "div": 3,
+                        "imul": 1,
+                        "ja": 1,
+                        "je": 2,
+                        "jmp": 1,
+                        "jne": 1,
+                        "lea": 2,
+                        "mov": 17,
+                        "neg": 1,
+                        "ret": 1,
+                        "sub": 2,
+                        "test": 1,
+                        "xor": 4
+                    },
+                    "25898": {
+                        "add": 2,
+                        "cmp": 7,
+                        "imul": 3,
+                        "ja": 1,
+                        "jbe": 1,
+                        "je": 3,
+                        "jg": 1,
+                        "jl": 1,
+                        "jle": 1,
+                        "jmp": 1,
+                        "jne": 1,
+                        "mov": 18,
+                        "movabs": 2,
+                        "movzx": 1,
+                        "neg": 1,
+                        "not": 2,
+                        "or": 2,
+                        "ret": 2,
+                        "setg": 1,
+                        "setge": 1,
+                        "setle": 1,
+                        "shr": 1,
+                        "test": 3
+                    },
+                    "26103": {
+                        "add": 1,
+                        "dec": 1,
+                        "je": 2,
+                        "jmp": 1,
+                        "mov": 3,
+                        "ret": 1,
+                        "test": 1,
+                        "xchg": 1
+                    },
+                    "26143": {
+                        "add": 1,
+                        "call": 1,
+                        "je": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 4,
+                        "ret": 1,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "26184": {
+                        "jmp": 1,
+                        "jns": 1,
+                        "ret": 1,
+                        "test": 1,
+                        "xchg": 1,
+                        "xor": 1
+                    },
+                    "26198": {
+                        "add": 1,
+                        "call": 3,
+                        "jmp": 1,
+                        "lea": 1,
+                        "mov": 25,
+                        "pop": 6,
+                        "push": 6,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "26346": {
+                        "cmove": 1,
+                        "lea": 2,
+                        "mov": 2,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "26377": {
+                        "add": 1,
+                        "call": 4,
+                        "je": 1,
+                        "mov": 17,
+                        "pop": 6,
+                        "push": 6,
+                        "ret": 1,
+                        "sete": 1,
+                        "sub": 1,
+                        "test": 2,
+                        "xor": 1
+                    },
+                    "26507": {
+                        "add": 2,
+                        "call": 3,
+                        "cmovg": 2,
+                        "cmovl": 2,
+                        "cmp": 9,
+                        "je": 4,
+                        "jl": 1,
+                        "jle": 2,
+                        "jmp": 5,
+                        "jns": 1,
+                        "lea": 1,
+                        "lock cmpxchg": 1,
+                        "lock xadd": 1,
+                        "mov": 31,
+                        "pop": 7,
+                        "push": 7,
+                        "ret": 2,
+                        "sub": 1,
+                        "test": 3,
+                        "xor": 2
+                    },
+                    "26610": {
+                        "call": 3,
+                        "cmovb": 1,
+                        "cmp": 4,
+                        "cqo": 1,
+                        "div": 1,
+                        "idiv": 1,
+                        "imul": 1,
+                        "ja": 1,
+                        "je": 4,
+                        "jmp": 3,
+                        "lea": 3,
+                        "lock cmpxchg": 1,
+                        "mov": 32,
+                        "pop": 10,
+                        "push": 10,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 2,
+                        "xor": 3
+                    },
+                    "26713": {
+                        "add": 3,
+                        "call": 2,
+                        "cmp": 3,
+                        "dec": 1,
+                        "ja": 1,
+                        "je": 2,
+                        "jmp": 5,
+                        "jne": 2,
+                        "mov": 14,
+                        "movsxd": 3,
+                        "pop": 3,
+                        "push": 1,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "26853": {
+                        "add": 1,
+                        "call": 5,
+                        "je": 1,
+                        "mov": 18,
+                        "pop": 6,
+                        "push": 6,
+                        "ret": 1,
+                        "sete": 1,
+                        "sub": 1,
+                        "test": 2
+                    },
+                    "26991": {
+                        "add": 2,
+                        "call": 8,
+                        "je": 2,
+                        "jmp": 1,
+                        "lea": 2,
+                        "mov": 22,
+                        "pop": 6,
+                        "push": 6,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 2
+                    },
+                    "27169": {
+                        "add": 2,
+                        "call": 8,
+                        "je": 2,
+                        "jmp": 1,
+                        "lea": 2,
+                        "mov": 22,
+                        "pop": 6,
+                        "push": 6,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 2
+                    },
+                    "27347": {
+                        "add": 3,
+                        "call": 2,
+                        "cmp": 3,
+                        "dec": 1,
+                        "ja": 1,
+                        "je": 2,
+                        "jmp": 5,
+                        "jne": 2,
+                        "mov": 14,
+                        "movsxd": 3,
+                        "pop": 3,
+                        "push": 1,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "27487": {
+                        "call": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "sete": 1,
+                        "test": 1
+                    },
+                    "27500": {
+                        "jmp": 1
+                    },
+                    "27505": {
+                        "jmp": 1
+                    },
+                    "27510": {
+                        "call": 1,
+                        "cmp": 3,
+                        "dec": 1,
+                        "ja": 1,
+                        "je": 2,
+                        "jmp": 4,
+                        "jne": 1,
+                        "mov": 3,
+                        "pop": 3,
+                        "push": 1
+                    },
+                    "27567": {
+                        "add": 2,
+                        "call": 5,
+                        "js": 1,
+                        "lea": 1,
+                        "mov": 8,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sete": 1,
+                        "sub": 1,
+                        "test": 2
+                    },
+                    "27657": {
+                        "add": 2,
+                        "call": 6,
+                        "je": 1,
+                        "jmp": 1,
+                        "lea": 1,
+                        "mov": 9,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1
+                    },
+                    "27751": {
+                        "add": 2,
+                        "call": 6,
+                        "je": 1,
+                        "jmp": 1,
+                        "lea": 1,
+                        "mov": 9,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1
+                    },
+                    "27845": {
+                        "call": 1,
+                        "cmp": 3,
+                        "dec": 1,
+                        "ja": 1,
+                        "je": 2,
+                        "jmp": 4,
+                        "jne": 1,
+                        "mov": 3,
+                        "pop": 3,
+                        "push": 1
+                    },
+                    "27905": {
+                        "add": 1,
+                        "call": 1,
+                        "push": 3,
+                        "ret": 1,
+                        "sub": 1
+                    },
+                    "27927": {
+                        "add": 1,
+                        "call": 1,
+                        "push": 3,
+                        "ret": 1,
+                        "sub": 1
+                    },
+                    "27949": {
+                        "add": 1,
+                        "call": 1,
+                        "push": 3,
+                        "ret": 1,
+                        "sub": 1
+                    },
+                    "27971": {
+                        "add": 1,
+                        "call": 2,
+                        "mov": 13,
+                        "movsxd": 1,
+                        "push": 4,
+                        "ret": 1,
+                        "sub": 1
+                    },
+                    "28060": {
+                        "add": 1,
+                        "call": 2,
+                        "jmp": 1,
+                        "mov": 4,
+                        "pop": 3,
+                        "push": 5,
+                        "sub": 1
+                    },
+                    "28105": {
+                        "add": 1,
+                        "call": 2,
+                        "jmp": 1,
+                        "mov": 4,
+                        "pop": 3,
+                        "push": 5,
+                        "sub": 1
+                    },
+                    "28150": {
+                        "add": 1,
+                        "call": 2,
+                        "jmp": 1,
+                        "mov": 4,
+                        "pop": 3,
+                        "push": 5,
+                        "sub": 1
+                    },
+                    "28195": {
+                        "add": 2,
+                        "call": 3,
+                        "jmp": 1,
+                        "mov": 15,
+                        "movsxd": 1,
+                        "pop": 3,
+                        "push": 7,
+                        "sub": 1
+                    },
+                    "28301": {
+                        "call": 4,
+                        "je": 2,
+                        "jmp": 2,
+                        "jne": 1,
+                        "lea": 1,
+                        "mov": 13,
+                        "pop": 5,
+                        "push": 5,
+                        "ret": 1,
+                        "test": 3,
+                        "xor": 1
+                    },
+                    "28306": {
+                        "call": 2,
+                        "je": 2,
+                        "jmp": 2,
+                        "lea": 1,
+                        "mov": 11,
+                        "pop": 5,
+                        "push": 5,
+                        "test": 2
+                    },
+                    "28311": {
+                        "call": 2,
+                        "cmp": 2,
+                        "inc": 1,
+                        "je": 1,
+                        "jmp": 2,
+                        "jne": 2,
+                        "lock xadd": 1,
+                        "mov": 9,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "28316": {
+                        "cmova": 1,
+                        "cmp": 8,
+                        "imul": 3,
+                        "inc": 2,
+                        "ja": 2,
+                        "jbe": 1,
+                        "je": 2,
+                        "jmp": 1,
+                        "jne": 3,
+                        "mov": 18,
+                        "neg": 1,
+                        "not": 2,
+                        "or": 3,
+                        "ret": 2,
+                        "seta": 1,
+                        "setb": 2,
+                        "test": 4,
+                        "xor": 2
+                    },
+                    "28508": {
+                        "add": 1,
+                        "dec": 1,
+                        "je": 2,
+                        "jmp": 1,
+                        "mov": 3,
+                        "ret": 1,
+                        "test": 1,
+                        "xchg": 1
+                    },
+                    "28548": {
+                        "add": 1,
+                        "call": 1,
+                        "je": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 4,
+                        "ret": 1,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "28589": {
+                        "jmp": 1,
+                        "jns": 1,
+                        "ret": 1,
+                        "test": 1,
+                        "xchg": 1,
+                        "xor": 1
+                    },
+                    "28603": {
+                        "add": 1,
+                        "call": 4,
+                        "je": 1,
+                        "mov": 16,
+                        "movzx": 1,
+                        "pop": 8,
+                        "push": 8,
+                        "ret": 1,
+                        "sete": 1,
+                        "sub": 1,
+                        "test": 2,
+                        "xor": 1
+                    },
+                    "28739": {
+                        "add": 3,
+                        "call": 3,
+                        "cmova": 2,
+                        "cmovb": 2,
+                        "cmp": 8,
+                        "jb": 1,
+                        "jbe": 1,
+                        "je": 5,
+                        "jmp": 5,
+                        "jne": 1,
+                        "lea": 1,
+                        "lock cmpxchg": 1,
+                        "lock xadd": 1,
+                        "mov": 31,
+                        "movzx": 1,
+                        "pop": 8,
+                        "push": 8,
+                        "ret": 2,
+                        "sub": 2,
+                        "test": 4,
+                        "xor": 2
+                    },
+                    "28863": {
+                        "add": 1,
+                        "call": 3,
+                        "cmovb": 1,
+                        "cmp": 5,
+                        "div": 3,
+                        "imul": 1,
+                        "ja": 1,
+                        "je": 4,
+                        "jmp": 4,
+                        "jne": 1,
+                        "lea": 3,
+                        "lock cmpxchg": 1,
+                        "mov": 35,
+                        "movzx": 1,
+                        "neg": 1,
+                        "pop": 13,
+                        "push": 13,
+                        "ret": 1,
+                        "sub": 3,
+                        "test": 2,
+                        "xor": 5
+                    },
+                    "28987": {
+                        "call": 4,
+                        "cmove": 1,
+                        "cmp": 3,
+                        "dec": 1,
+                        "ja": 1,
+                        "je": 2,
+                        "jmp": 4,
+                        "jne": 2,
+                        "lea": 2,
+                        "mov": 7,
+                        "movsxd": 3,
+                        "movzx": 1,
+                        "pop": 3,
+                        "push": 9,
+                        "ret": 1,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "29126": {
+                        "add": 1,
+                        "call": 5,
+                        "je": 1,
+                        "mov": 17,
+                        "movzx": 1,
+                        "pop": 8,
+                        "push": 8,
+                        "ret": 1,
+                        "sete": 1,
+                        "sub": 1,
+                        "test": 2
+                    },
+                    "29270": {
+                        "add": 2,
+                        "call": 8,
+                        "je": 2,
+                        "jmp": 1,
+                        "lea": 2,
+                        "mov": 21,
+                        "movzx": 1,
+                        "pop": 8,
+                        "push": 8,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 2
+                    },
+                    "29455": {
+                        "add": 2,
+                        "call": 8,
+                        "je": 2,
+                        "jmp": 1,
+                        "lea": 2,
+                        "mov": 21,
+                        "movzx": 1,
+                        "pop": 8,
+                        "push": 8,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 2
+                    },
+                    "29640": {
+                        "call": 4,
+                        "cmove": 1,
+                        "cmp": 3,
+                        "dec": 1,
+                        "ja": 1,
+                        "je": 2,
+                        "jmp": 4,
+                        "jne": 2,
+                        "lea": 2,
+                        "mov": 7,
+                        "movsxd": 3,
+                        "movzx": 1,
+                        "pop": 3,
+                        "push": 9,
+                        "ret": 1,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "29779": {
+                        "call": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "sete": 1,
+                        "test": 1
+                    },
+                    "29792": {
+                        "jmp": 1
+                    },
+                    "29797": {
+                        "jmp": 1
+                    },
+                    "29802": {
+                        "call": 1,
+                        "cmp": 3,
+                        "dec": 1,
+                        "ja": 1,
+                        "je": 2,
+                        "jmp": 4,
+                        "jne": 1,
+                        "mov": 3,
+                        "pop": 3,
+                        "push": 1
+                    },
+                    "29859": {
+                        "add": 2,
+                        "call": 5,
+                        "js": 1,
+                        "lea": 1,
+                        "mov": 8,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sete": 1,
+                        "sub": 1,
+                        "test": 2
+                    },
+                    "29949": {
+                        "add": 2,
+                        "call": 6,
+                        "je": 1,
+                        "jmp": 1,
+                        "lea": 1,
+                        "mov": 9,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1
+                    },
+                    "30043": {
+                        "add": 2,
+                        "call": 6,
+                        "je": 1,
+                        "jmp": 1,
+                        "lea": 1,
+                        "mov": 9,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1
+                    },
+                    "30137": {
+                        "call": 1,
+                        "cmp": 3,
+                        "dec": 1,
+                        "ja": 1,
+                        "je": 2,
+                        "jmp": 4,
+                        "jne": 1,
+                        "mov": 3,
+                        "pop": 3,
+                        "push": 1
+                    },
+                    "30243": {
+                        "add": 1,
+                        "cmovae": 1,
+                        "cmp": 2,
+                        "je": 2,
+                        "jmp": 1,
+                        "jne": 1,
+                        "lea": 1,
+                        "mov": 14,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 2
+                    },
+                    "30334": {
+                        "cmove": 1,
+                        "cmp": 2,
+                        "dec": 1,
+                        "inc": 1,
+                        "je": 3,
+                        "jmp": 1,
+                        "mov": 12,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "30415": {
+                        "add": 1,
+                        "cmovae": 1,
+                        "cmove": 1,
+                        "cmp": 5,
+                        "inc": 1,
+                        "jae": 1,
+                        "je": 2,
+                        "jmp": 2,
+                        "jne": 1,
+                        "mov": 17,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1
+                    },
+                    "30533": {
+                        "add": 1,
+                        "and": 1,
+                        "call": 1,
+                        "cmp": 2,
+                        "je": 2,
+                        "jmp": 1,
+                        "jne": 1,
+                        "jns": 1,
+                        "lea": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 7,
+                        "ret": 2,
+                        "sub": 1,
+                        "test": 1
+                    },
+                    "30568": {
+                        "cmove": 1,
+                        "cmp": 2,
+                        "inc": 1,
+                        "je": 2,
+                        "jmp": 1,
+                        "mov": 11,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "30641": {
+                        "add": 1,
+                        "call": 1,
+                        "cmp": 2,
+                        "dec": 1,
+                        "je": 5,
+                        "jmp": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 12,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 2
+                    },
+                    "30742": {
+                        "ret": 1
+                    },
+                    "30743": {
+                        "call": 1,
+                        "cmova": 1,
+                        "cmovbe": 1,
+                        "cmove": 1,
+                        "cmovne": 1,
+                        "cmp": 12,
+                        "inc": 2,
+                        "jae": 3,
+                        "je": 7,
+                        "jmp": 3,
+                        "jne": 3,
+                        "lea": 3,
+                        "lock cmpxchg": 1,
+                        "mov": 22,
+                        "pop": 5,
+                        "push": 5,
+                        "ret": 1,
+                        "sub": 2,
+                        "test": 5
+                    },
+                    "30976": {
+                        "adc": 3,
+                        "add": 19,
+                        "and": 3,
+                        "call": 22,
+                        "cmove": 7,
+                        "cmovne": 2,
+                        "cmp": 78,
+                        "dec": 3,
+                        "div": 7,
+                        "imul": 4,
+                        "inc": 15,
+                        "ja": 3,
+                        "jae": 8,
+                        "jb": 2,
+                        "jbe": 12,
+                        "je": 29,
+                        "jmp": 35,
+                        "jne": 28,
+                        "lea": 35,
+                        "lock add": 5,
+                        "mov": 377,
+                        "neg": 1,
+                        "pop": 9,
+                        "push": 9,
+                        "rep movsd": 1,
+                        "rep stosb": 2,
+                        "ret": 1,
+                        "sbb": 1,
+                        "sete": 1,
+                        "setne": 2,
+                        "shl": 7,
+                        "shr": 2,
+                        "sub": 23,
+                        "test": 19,
+                        "xor": 22
+                    },
+                    "31026": {
+                        "add": 3,
+                        "call": 11,
+                        "cmove": 1,
+                        "cmp": 8,
+                        "dec": 1,
+                        "ja": 1,
+                        "jbe": 1,
+                        "je": 9,
+                        "jmp": 9,
+                        "jne": 4,
+                        "lea": 5,
+                        "lock add": 2,
+                        "lock cmpxchg": 1,
+                        "mov": 36,
+                        "pop": 12,
+                        "push": 9,
+                        "rep movsd": 1,
+                        "ret": 2,
+                        "sub": 3,
+                        "test": 6,
+                        "xchg": 1,
+                        "xor": 2
+                    },
+                    "31142": {
+                        "add": 1,
+                        "call": 4,
+                        "jmp": 1,
+                        "mov": 12,
+                        "pop": 3,
+                        "push": 3,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "31218": {
+                        "and": 2,
+                        "cmp": 1,
+                        "je": 6,
+                        "jne": 1,
+                        "mov": 7,
+                        "ret": 2,
+                        "setne": 1,
+                        "shr": 1,
+                        "test": 6,
+                        "xor": 2
+                    },
+                    "31311": {
+                        "add": 2,
+                        "and": 2,
+                        "call": 4,
+                        "cmp": 1,
+                        "je": 6,
+                        "jmp": 3,
+                        "jne": 2,
+                        "jns": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 20,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 5,
+                        "xchg": 1,
+                        "xor": 1
+                    },
+                    "31523": {
+                        "je": 1,
+                        "mov": 4,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "31548": {
+                        "mov": 2,
+                        "ret": 1
+                    },
+                    "31560": {
+                        "cmp": 1,
+                        "mov": 1,
+                        "movzx": 1,
+                        "ret": 1,
+                        "setne": 1
+                    },
+                    "31579": {
+                        "mov": 2,
+                        "ret": 1
+                    },
+                    "31591": {
+                        "add": 2,
+                        "cmp": 1,
+                        "dec": 1,
+                        "ja": 1,
+                        "jle": 1,
+                        "jmp": 1,
+                        "js": 1,
+                        "lea": 1,
+                        "mov": 4,
+                        "or": 1,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 2
+                    },
+                    "31647": {
+                        "add": 2,
+                        "cmp": 1,
+                        "dec": 1,
+                        "ja": 1,
+                        "je": 1,
+                        "jle": 1,
+                        "jmp": 1,
+                        "js": 1,
+                        "lea": 1,
+                        "mov": 6,
+                        "or": 1,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 3
+                    },
+                    "31715": {
+                        "mov": 2,
+                        "ret": 1
+                    },
+                    "31727": {
+                        "add": 2,
+                        "call": 3,
+                        "dec": 1,
+                        "inc": 1,
+                        "je": 4,
+                        "lea": 1,
+                        "mov": 13,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 3,
+                        "xchg": 1,
+                        "xor": 2
+                    },
+                    "31859": {
+                        "add": 1,
+                        "call": 1,
+                        "je": 1,
+                        "lea": 1,
+                        "mov": 3,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "31893": {
+                        "call": 2,
+                        "inc": 1,
+                        "jmp": 1,
+                        "mov": 17,
+                        "pop": 5,
+                        "push": 5,
+                        "xor": 1
+                    },
+                    "32017": {
+                        "call": 4,
+                        "inc": 1,
+                        "jmp": 1,
+                        "mov": 20,
+                        "pop": 5,
+                        "push": 5
+                    },
+                    "32156": {
+                        "jmp": 1
+                    },
+                    "32161": {
+                        "jmp": 1
+                    },
+                    "32166": {
+                        "jmp": 1
+                    },
+                    "32171": {
+                        "je": 1,
+                        "lea": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 5,
+                        "ret": 1,
+                        "sete": 1,
+                        "test": 1
+                    },
+                    "32214": {
+                        "add": 1,
+                        "call": 4,
+                        "dec": 1,
+                        "je": 3,
+                        "jmp": 1,
+                        "lea": 1,
+                        "mov": 7,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 2,
+                        "xchg": 1,
+                        "xor": 2
+                    },
+                    "32305": {
+                        "call": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "lea": 1,
+                        "mov": 4,
+                        "pop": 1,
+                        "push": 1,
+                        "test": 1
+                    },
+                    "32350": {
+                        "add": 2,
+                        "imul": 2,
+                        "lea": 2,
+                        "mov": 5,
+                        "ret": 1,
+                        "shl": 1,
+                        "shr": 3,
+                        "sub": 3
+                    },
+                    "32405": {
+                        "cmp": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "mov": 3,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "32430": {
+                        "and": 1,
+                        "cmove": 1,
+                        "cmp": 8,
+                        "dec": 1,
+                        "je": 6,
+                        "jmp": 1,
+                        "jne": 7,
+                        "mov": 18,
+                        "ret": 1,
+                        "test": 5,
+                        "xor": 2
+                    },
+                    "32629": {
+                        "je": 1,
+                        "jmp": 1,
+                        "mov": 1,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "32644": {
+                        "add": 1,
+                        "call": 1,
+                        "dec": 1,
+                        "je": 2,
+                        "jmp": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 4,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1
+                    },
+                    "32690": {
+                        "call": 2,
+                        "cmp": 3,
+                        "jbe": 2,
+                        "je": 1,
+                        "jmp": 2,
+                        "lea": 7,
+                        "mov": 15,
+                        "pop": 3,
+                        "push": 3,
+                        "rep stosb": 1,
+                        "ret": 1,
+                        "shl": 2,
+                        "shr": 1,
+                        "sub": 1,
+                        "xor": 2
+                    },
+                    "32836": {
+                        "add": 1,
+                        "and": 1,
+                        "call": 1,
+                        "cmp": 1,
+                        "jne": 1,
+                        "jns": 1,
+                        "lea": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 3,
+                        "ret": 1,
+                        "sub": 1
+                    },
+                    "32882": {
+                        "cmp": 4,
+                        "dec": 1,
+                        "jbe": 1,
+                        "je": 3,
+                        "jmp": 2,
+                        "jne": 1,
+                        "lea": 1,
+                        "mov": 13,
+                        "ret": 2,
+                        "test": 1
+                    },
+                    "32986": {
+                        "add": 2,
+                        "call": 1,
+                        "cmp": 5,
+                        "dec": 1,
+                        "je": 6,
+                        "jmp": 2,
+                        "jne": 2,
+                        "mov": 13,
+                        "pop": 6,
+                        "push": 3,
+                        "ret": 1,
+                        "test": 2
+                    },
+                    "33116": {
+                        "add": 1,
+                        "call": 1,
+                        "je": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 4,
+                        "ret": 1,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "33157": {
+                        "jmp": 1,
+                        "jns": 1,
+                        "ret": 1,
+                        "test": 1,
+                        "xchg": 1,
+                        "xor": 1
+                    },
+                    "33171": {
+                        "add": 2,
+                        "imul": 2,
+                        "lea": 1,
+                        "mov": 6,
+                        "ret": 1,
+                        "shl": 1,
+                        "shr": 3,
+                        "sub": 2
+                    },
+                    "33222": {
+                        "add": 6,
+                        "call": 7,
+                        "cmovae": 2,
+                        "cmove": 1,
+                        "cmp": 13,
+                        "dec": 3,
+                        "inc": 1,
+                        "ja": 3,
+                        "jae": 1,
+                        "jb": 1,
+                        "jbe": 1,
+                        "je": 8,
+                        "jmp": 5,
+                        "jne": 6,
+                        "lea": 15,
+                        "mov": 54,
+                        "pop": 6,
+                        "push": 6,
+                        "ret": 1,
+                        "shl": 1,
+                        "shr": 2,
+                        "sub": 5,
+                        "test": 8,
+                        "xor": 5
+                    },
+                    "33772": {
+                        "add": 3,
+                        "call": 5,
+                        "cmp": 15,
+                        "dec": 1,
+                        "inc": 6,
+                        "jae": 2,
+                        "jb": 1,
+                        "jbe": 1,
+                        "je": 19,
+                        "jmp": 10,
+                        "jne": 6,
+                        "lea": 5,
+                        "mov": 68,
+                        "or": 1,
+                        "pop": 6,
+                        "push": 6,
+                        "ret": 2,
+                        "sub": 1,
+                        "test": 13,
+                        "xor": 5
+                    },
+                    "34408": {
+                        "lea": 1,
+                        "mov": 15,
+                        "rep movsd": 1,
+                        "ret": 1
+                    },
+                    "34515": {
+                        "call": 1,
+                        "mov": 5,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1
+                    },
+                    "34551": {
+                        "add": 5,
+                        "and": 7,
+                        "call": 41,
+                        "cmova": 1,
+                        "cmovae": 2,
+                        "cmove": 2,
+                        "cmovne": 2,
+                        "cmp": 46,
+                        "dec": 2,
+                        "imul": 1,
+                        "inc": 8,
+                        "jae": 2,
+                        "jb": 1,
+                        "jbe": 3,
+                        "je": 45,
+                        "jmp": 24,
+                        "jne": 22,
+                        "lea": 24,
+                        "mov": 314,
+                        "movsxd": 1,
+                        "movzx": 2,
+                        "neg": 2,
+                        "or": 1,
+                        "pop": 12,
+                        "push": 6,
+                        "rep movsb": 1,
+                        "rep stosd": 1,
+                        "ret": 1,
+                        "setae": 1,
+                        "sete": 1,
+                        "setne": 1,
+                        "shl": 1,
+                        "shr": 3,
+                        "sub": 5,
+                        "test": 37,
+                        "xor": 14
+                    },
+                    "37433": {
+                        "add": 4,
+                        "and": 2,
+                        "call": 18,
+                        "cmova": 1,
+                        "cmp": 3,
+                        "dec": 2,
+                        "inc": 1,
+                        "jbe": 1,
+                        "je": 9,
+                        "jmp": 4,
+                        "jne": 2,
+                        "lea": 4,
+                        "mov": 41,
+                        "movsxd": 1,
+                        "or": 1,
+                        "pop": 12,
+                        "push": 6,
+                        "ret": 1,
+                        "sub": 2,
+                        "test": 9,
+                        "xor": 6
+                    },
+                    "37922": {
+                        "add": 1,
+                        "call": 17,
+                        "cmova": 1,
+                        "cmove": 1,
+                        "cmp": 6,
+                        "dec": 1,
+                        "jbe": 1,
+                        "je": 8,
+                        "jmp": 5,
+                        "jne": 5,
+                        "lea": 4,
+                        "mov": 50,
+                        "movsxd": 1,
+                        "movzx": 1,
+                        "pop": 6,
+                        "push": 6,
+                        "rep stosd": 1,
+                        "ret": 1,
+                        "sub": 3,
+                        "test": 10,
+                        "xor": 6
+                    },
+                    "38448": {
+                        "ret": 1
+                    },
+                    "38449": {
+                        "call": 1,
+                        "cmp": 1,
+                        "je": 1,
+                        "mov": 11,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1
+                    },
+                    "38524": {
+                        "add": 2,
+                        "call": 18,
+                        "cmova": 1,
+                        "cmp": 4,
+                        "dec": 1,
+                        "jbe": 1,
+                        "je": 9,
+                        "jmp": 7,
+                        "jne": 4,
+                        "lea": 3,
+                        "mov": 43,
+                        "movsxd": 1,
+                        "movzx": 1,
+                        "pop": 12,
+                        "push": 6,
+                        "ret": 1,
+                        "sub": 3,
+                        "test": 11,
+                        "xor": 5
+                    },
+                    "39007": {
+                        "je": 1,
+                        "mov": 2,
+                        "movzx": 1,
+                        "ret": 1,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "39034": {
+                        "call": 6,
+                        "cmp": 1,
+                        "inc": 1,
+                        "jbe": 1,
+                        "je": 4,
+                        "jmp": 2,
+                        "lea": 2,
+                        "lock add": 1,
+                        "mov": 17,
+                        "pop": 6,
+                        "push": 3,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 4,
+                        "xor": 1
+                    },
+                    "39204": {
+                        "add": 1,
+                        "call": 2,
+                        "mov": 3,
+                        "push": 1,
+                        "xor": 1
+                    },
+                    "39246": {
+                        "add": 2,
+                        "call": 10,
+                        "cmp": 1,
+                        "je": 3,
+                        "jmp": 1,
+                        "jne": 1,
+                        "lea": 5,
+                        "mov": 38,
+                        "pop": 7,
+                        "push": 7,
+                        "rep movsd": 1,
+                        "ret": 1,
+                        "test": 3,
+                        "xor": 1
+                    },
+                    "39553": {
+                        "add": 2,
+                        "call": 2,
+                        "imul": 2,
+                        "lea": 11,
+                        "mov": 32,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "43583": {
+                        "add": 1,
+                        "call": 3,
+                        "lea": 2,
+                        "mov": 7,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "xor": 1
+                    },
+                    "43655": {
+                        "and": 1,
+                        "cmove": 1,
+                        "dec": 1,
+                        "lock xadd": 1,
+                        "mov": 2,
+                        "or": 2,
+                        "ret": 1
+                    },
+                    "43680": {
+                        "call": 1,
+                        "cmp": 1,
+                        "jbe": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "lea": 3,
+                        "mov": 11,
+                        "pop": 3,
+                        "push": 3,
+                        "rep stosb": 1,
+                        "ret": 1,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "43792": {
+                        "add": 1,
+                        "cmp": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "mov": 2,
+                        "ret": 1
+                    },
+                    "43814": {
+                        "call": 1,
+                        "jmp": 1,
+                        "jne": 2,
+                        "lock cmpxchg": 1,
+                        "mov": 6,
+                        "pop": 6,
+                        "push": 3,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "43867": {
+                        "add": 2,
+                        "call": 5,
+                        "cmp": 2,
+                        "ja": 1,
+                        "jae": 1,
+                        "je": 3,
+                        "jmp": 4,
+                        "jne": 3,
+                        "lea": 5,
+                        "lock cmpxchg": 1,
+                        "mov": 38,
+                        "movzx": 2,
+                        "pop": 4,
+                        "push": 4,
+                        "ret": 1,
+                        "setne": 1,
+                        "shl": 4,
+                        "sub": 1,
+                        "test": 6,
+                        "xor": 2
+                    },
+                    "44573": {
+                        "mov": 1,
+                        "ret": 1
+                    },
+                    "44580": {
+                        "ret": 1
+                    },
+                    "44581": {
+                        "add": 1,
+                        "call": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 4,
+                        "ret": 1,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "44583": {
+                        "jmp": 2,
+                        "jns": 1,
+                        "ret": 1,
+                        "test": 1,
+                        "xchg": 1,
+                        "xor": 1
+                    },
+                    "44585": {
+                        "lock cmpxchg": 1,
+                        "mov": 2,
+                        "movzx": 1,
+                        "ret": 1,
+                        "sete": 1,
+                        "xor": 1
+                    },
+                    "44611": {
+                        "mov": 1,
+                        "rep stosd": 1,
+                        "ret": 1,
+                        "xor": 1
+                    },
+                    "44621": {
+                        "ret": 1
+                    },
+                    "44622": {
+                        "add": 1,
+                        "call": 2,
+                        "cmp": 1,
+                        "inc": 1,
+                        "je": 2,
+                        "jmp": 1,
+                        "mov": 6,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "44684": {
+                        "dec": 1,
+                        "jmp": 1,
+                        "jne": 1,
+                        "mov": 1,
+                        "ret": 1
+                    },
+                    "44703": {
+                        "add": 2,
+                        "call": 1,
+                        "cmp": 1,
+                        "inc": 1,
+                        "je": 2,
+                        "jmp": 3,
+                        "jne": 1,
+                        "lock cmpxchg": 1,
+                        "mov": 11,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1,
+                        "xor": 2
+                    },
+                    "44805": {
+                        "cmova": 1,
+                        "cmp": 3,
+                        "inc": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "jne": 1,
+                        "mov": 4,
+                        "pause": 1,
+                        "ret": 2,
+                        "xor": 2
+                    },
+                    "44863": {
+                        "and": 2,
+                        "cmp": 1,
+                        "jne": 1,
+                        "mov": 6,
+                        "or": 1,
+                        "ret": 1,
+                        "syscall": 2,
+                        "xor": 1
+                    },
+                    "44928": {
+                        "call": 4,
+                        "cmp": 1,
+                        "je": 4,
+                        "jmp": 2,
+                        "jne": 2,
+                        "lock cmpxchg": 1,
+                        "mov": 13,
+                        "or": 3,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "test": 4,
+                        "xchg": 2,
+                        "xor": 1
+                    },
+                    "45220": {
+                        "call": 1,
+                        "cdqe": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1
+                    },
+                    "45230": {
+                        "add": 2,
+                        "bt": 1,
+                        "call": 9,
+                        "cdqe": 1,
+                        "cmp": 4,
+                        "ja": 2,
+                        "jae": 1,
+                        "jb": 1,
+                        "je": 3,
+                        "jmp": 5,
+                        "jne": 2,
+                        "lea": 3,
+                        "mov": 30,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "shl": 2,
+                        "shr": 4,
+                        "test": 4
+                    },
+                    "45596": {
+                        "add": 1,
+                        "addsd": 1,
+                        "call": 2,
+                        "cmovae": 1,
+                        "cmovbe": 1,
+                        "cmove": 1,
+                        "cmp": 3,
+                        "cvttsd2si": 1,
+                        "jne": 1,
+                        "lea": 3,
+                        "mov": 6,
+                        "movsd": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "sub": 2,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "45705": {
+                        "call": 4,
+                        "cmove": 1,
+                        "cmp": 1,
+                        "je": 1,
+                        "jmp": 2,
+                        "jne": 2,
+                        "mov": 10,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "test": 3
+                    },
+                    "45710": {
+                        "cmova": 1,
+                        "cmp": 3,
+                        "inc": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "jne": 1,
+                        "mov": 4,
+                        "pause": 1,
+                        "ret": 2,
+                        "xor": 2
+                    },
+                    "45768": {
+                        "and": 2,
+                        "cmp": 1,
+                        "jne": 1,
+                        "mov": 7,
+                        "ret": 1,
+                        "syscall": 2,
+                        "xor": 1
+                    },
+                    "45835": {
+                        "and": 2,
+                        "cmp": 1,
+                        "jne": 1,
+                        "mov": 7,
+                        "ret": 1,
+                        "syscall": 2
+                    },
+                    "45899": {
+                        "and": 1,
+                        "call": 4,
+                        "cmp": 1,
+                        "dec": 1,
+                        "je": 8,
+                        "jle": 1,
+                        "jmp": 4,
+                        "jne": 1,
+                        "lea": 2,
+                        "lock cmpxchg": 3,
+                        "mov": 17,
+                        "or": 1,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "test": 4,
+                        "xor": 1
+                    },
+                    "46063": {
+                        "and": 2,
+                        "cmova": 1,
+                        "cmp": 4,
+                        "inc": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "jne": 2,
+                        "mov": 10,
+                        "pause": 1,
+                        "ret": 2,
+                        "syscall": 2,
+                        "xor": 3
+                    },
+                    "46180": {
+                        "and": 1,
+                        "cmove": 1,
+                        "dec": 1,
+                        "lock xadd": 1,
+                        "mov": 2,
+                        "or": 2,
+                        "ret": 1
+                    },
+                    "46205": {
+                        "jmp": 1,
+                        "jns": 1,
+                        "ret": 1,
+                        "test": 1,
+                        "xchg": 1,
+                        "xor": 1
+                    },
+                    "46340": {
+                        "add": 1,
+                        "call": 2,
+                        "cmp": 1,
+                        "je": 2,
+                        "jmp": 2,
+                        "lea": 1,
+                        "mov": 13,
+                        "pop": 5,
+                        "push": 3,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "46360": {
+                        "call": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "mov": 3,
+                        "pop": 2,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "46386": {
+                        "add": 1,
+                        "cmove": 1,
+                        "jmp": 1,
+                        "mov": 1,
+                        "test": 1
+                    },
+                    "46581": {
+                        "and": 1,
+                        "cmove": 1,
+                        "dec": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "lock xadd": 1,
+                        "mov": 4,
+                        "or": 2,
+                        "test": 1
+                    },
+                    "46798": {
+                        "add": 1,
+                        "call": 4,
+                        "je": 2,
+                        "jmp": 1,
+                        "lea": 2,
+                        "lock cmpxchg": 1,
+                        "mov": 11,
+                        "or": 1,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "46911": {
+                        "and": 2,
+                        "cmova": 1,
+                        "cmp": 5,
+                        "inc": 1,
+                        "je": 3,
+                        "jmp": 1,
+                        "jne": 2,
+                        "lock cmpxchg": 1,
+                        "mov": 18,
+                        "pause": 1,
+                        "ret": 1,
+                        "syscall": 2,
+                        "xor": 3
+                    },
+                    "47078": {
+                        "and": 2,
+                        "cmp": 1,
+                        "jne": 1,
+                        "mov": 7,
+                        "ret": 1,
+                        "syscall": 2
+                    },
+                    "47142": {
+                        "add": 1,
+                        "addsd": 1,
+                        "call": 2,
+                        "cvtsi2sd": 2,
+                        "divsd": 1,
+                        "jns": 1,
+                        "mov": 3,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "47205": {
+                        "add": 1,
+                        "addsd": 1,
+                        "call": 2,
+                        "cvtsi2sd": 2,
+                        "divsd": 1,
+                        "jns": 1,
+                        "mov": 3,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "sub": 1,
+                        "test": 1,
+                        "xor": 1
+                    },
+                    "47268": {
+                        "jmp": 1
+                    },
+                    "47273": {
+                        "call": 1,
+                        "jmp": 1,
+                        "mov": 4,
+                        "pop": 1,
+                        "push": 1
+                    },
+                    "47299": {
+                        "jmp": 1
+                    },
+                    "47304": {
+                        "call": 2,
+                        "mov": 4,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1
+                    },
+                    "47333": {
+                        "jmp": 1
+                    },
+                    "47338": {
+                        "jmp": 1,
+                        "mov": 1
+                    },
+                    "47346": {
+                        "jmp": 1
+                    },
+                    "47351": {
+                        "jmp": 1,
+                        "mov": 1
+                    },
+                    "47359": {
+                        "jmp": 1
+                    },
+                    "47364": {
+                        "jmp": 1,
+                        "mov": 1
+                    },
+                    "47372": {
+                        "jmp": 1,
+                        "mov": 1
+                    },
+                    "47379": {
+                        "cmp": 1,
+                        "jmp": 1,
+                        "movzx": 1,
+                        "setne": 1
+                    },
+                    "47396": {
+                        "jmp": 1,
+                        "mov": 1
+                    },
+                    "47403": {
+                        "cmp": 1,
+                        "jmp": 1,
+                        "movzx": 1,
+                        "setne": 1
+                    },
+                    "47420": {
+                        "jmp": 1,
+                        "mov": 1
+                    },
+                    "47427": {
+                        "cmovle": 1,
+                        "cmp": 2,
+                        "jl": 1,
+                        "jmp": 1,
+                        "mov": 3
+                    },
+                    "47463": {
+                        "jmp": 1
+                    },
+                    "47468": {
+                        "jmp": 1
+                    },
+                    "47473": {
+                        "jmp": 1
+                    },
+                    "47478": {
+                        "jmp": 1
+                    },
+                    "47483": {
+                        "jmp": 1
+                    },
+                    "47488": {
+                        "jmp": 1
+                    },
+                    "47493": {
+                        "jmp": 1
+                    },
+                    "47498": {
+                        "jmp": 1
+                    },
+                    "47503": {
+                        "jmp": 1
+                    },
+                    "47508": {
+                        "jmp": 1,
+                        "mov": 2
+                    },
+                    "47517": {
+                        "cmovle": 1,
+                        "cmp": 2,
+                        "jl": 1,
+                        "jmp": 1,
+                        "mov": 4
+                    },
+                    "47555": {
+                        "add": 1,
+                        "call": 1,
+                        "lea": 2,
+                        "mov": 6,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sub": 1
+                    },
+                    "47602": {
+                        "add": 1,
+                        "call": 1,
+                        "lea": 2,
+                        "mov": 5,
+                        "movsxd": 1,
+                        "pop": 2,
+                        "push": 2,
+                        "ret": 1,
+                        "sub": 1
+                    },
+                    "47651": {
+                        "jmp": 1
+                    },
+                    "47656": {
+                        "jmp": 1,
+                        "mov": 1
+                    },
+                    "47663": {
+                        "cmovle": 1,
+                        "cmp": 2,
+                        "jl": 1,
+                        "jmp": 1,
+                        "mov": 3
+                    },
+                    "47699": {
+                        "jmp": 1
+                    },
+                    "47704": {
+                        "jmp": 1
+                    },
+                    "47709": {
+                        "jmp": 1,
+                        "mov": 1
+                    },
+                    "47716": {
+                        "cmovle": 1,
+                        "cmp": 2,
+                        "jl": 1,
+                        "jmp": 1,
+                        "mov": 3
+                    },
+                    "47752": {
+                        "jmp": 1,
+                        "mov": 1
+                    },
+                    "47759": {
+                        "cmovle": 1,
+                        "cmp": 2,
+                        "jl": 1,
+                        "jmp": 1,
+                        "mov": 3
+                    },
+                    "47795": {
+                        "jmp": 1
+                    },
+                    "47800": {
+                        "jmp": 1
+                    },
+                    "47805": {
+                        "jmp": 1
+                    },
+                    "47810": {
+                        "jmp": 1
+                    },
+                    "47815": {
+                        "jmp": 1,
+                        "mov": 1
+                    },
+                    "47822": {
+                        "cmovle": 1,
+                        "cmp": 2,
+                        "jl": 1,
+                        "jmp": 1,
+                        "mov": 3
+                    },
+                    "47858": {
+                        "jmp": 1
+                    },
+                    "47863": {
+                        "jmp": 1
+                    },
+                    "47868": {
+                        "jmp": 1
+                    },
+                    "47873": {
+                        "jmp": 1
+                    },
+                    "47878": {
+                        "jmp": 1
+                    },
+                    "47883": {
+                        "jmp": 1,
+                        "mov": 4
+                    },
+                    "47908": {
+                        "add": 1,
+                        "call": 2,
+                        "cmp": 2,
+                        "imul": 1,
+                        "inc": 1,
+                        "je": 1,
+                        "jmp": 3,
+                        "jne": 4,
+                        "lea": 4,
+                        "mov": 4,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "test": 3,
+                        "xor": 3
+                    },
+                    "48018": {
+                        "mov": 1,
+                        "rep stosb": 1,
+                        "ret": 1,
+                        "xor": 1
+                    },
+                    "48030": {
+                        "call": 2,
+                        "cmp": 4,
+                        "dec": 1,
+                        "jae": 1,
+                        "jb": 2,
+                        "jbe": 1,
+                        "je": 2,
+                        "jmp": 4,
+                        "jne": 2,
+                        "jns": 1,
+                        "lea": 4,
+                        "mov": 10,
+                        "or": 1,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "shl": 1,
+                        "shr": 2,
+                        "test": 3,
+                        "xor": 3
+                    },
+                    "48181": {
+                        "and": 2,
+                        "bt": 1,
+                        "call": 1,
+                        "cmp": 2,
+                        "jae": 2,
+                        "jb": 1,
+                        "jmp": 2,
+                        "lea": 4,
+                        "mov": 8,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "rol": 1,
+                        "shr": 2,
+                        "xor": 2
+                    },
+                    "48286": {
+                        "bt": 1,
+                        "call": 1,
+                        "cmp": 6,
+                        "inc": 2,
+                        "ja": 1,
+                        "jae": 4,
+                        "jb": 1,
+                        "je": 2,
+                        "jmp": 4,
+                        "jns": 1,
+                        "lea": 2,
+                        "mov": 13,
+                        "or": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "rep stosb": 1,
+                        "ret": 1,
+                        "shl": 1,
+                        "shr": 4,
+                        "test": 1,
+                        "xor": 4
+                    },
+                    "48449": {
+                        "call": 1,
+                        "mov": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "sete": 1,
+                        "test": 1
+                    },
+                    "48469": {
+                        "and": 1,
+                        "call": 3,
+                        "cmp": 3,
+                        "inc": 3,
+                        "jae": 2,
+                        "je": 2,
+                        "jmp": 3,
+                        "jne": 3,
+                        "lea": 3,
+                        "mov": 16,
+                        "pop": 5,
+                        "push": 5,
+                        "ret": 1,
+                        "shr": 1,
+                        "test": 4,
+                        "xor": 6
+                    },
+                    "48667": {
+                        "add": 1,
+                        "and": 4,
+                        "bt": 3,
+                        "call": 15,
+                        "cmova": 1,
+                        "cmove": 3,
+                        "cmp": 22,
+                        "inc": 7,
+                        "jae": 6,
+                        "jb": 4,
+                        "jbe": 1,
+                        "je": 11,
+                        "jle": 1,
+                        "jmp": 10,
+                        "jne": 5,
+                        "lea": 17,
+                        "mov": 98,
+                        "movzx": 1,
+                        "pop": 6,
+                        "push": 6,
+                        "rep movsb": 2,
+                        "ret": 1,
+                        "rol": 1,
+                        "shr": 6,
+                        "sub": 2,
+                        "test": 7,
+                        "xor": 9
+                    },
+                    "49855": {
+                        "call": 3,
+                        "cmp": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "jne": 1,
+                        "mov": 12,
+                        "or": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 1
+                    },
+                    "49960": {
+                        "bt": 1,
+                        "call": 3,
+                        "cmp": 4,
+                        "inc": 2,
+                        "jae": 1,
+                        "jb": 1,
+                        "jbe": 2,
+                        "je": 2,
+                        "jmp": 4,
+                        "jne": 1,
+                        "lea": 4,
+                        "mov": 17,
+                        "pop": 10,
+                        "push": 5,
+                        "ret": 1,
+                        "shr": 2,
+                        "test": 2,
+                        "xor": 7
+                    },
+                    "50193": {
+                        "add": 2,
+                        "call": 2,
+                        "cmp": 1,
+                        "je": 1,
+                        "lea": 4,
+                        "mov": 15,
+                        "pop": 3,
+                        "push": 3,
+                        "rep movsd": 2,
+                        "rep stosd": 1,
+                        "ret": 1,
+                        "sub": 1,
+                        "xor": 1
+                    },
+                    "50331": {
+                        "ret": 1
+                    },
+                    "50332": {
+                        "ret": 1
+                    },
+                    "50333": {
+                        "ret": 1
+                    },
+                    "50334": {
+                        "add": 1,
+                        "call": 1,
+                        "cmovs": 1,
+                        "je": 2,
+                        "jmp": 1,
+                        "mov": 5,
+                        "pop": 1,
+                        "push": 1,
+                        "ret": 1,
+                        "test": 3
+                    },
+                    "50384": {
+                        "call": 1,
+                        "cmp": 1,
+                        "je": 1,
+                        "jmp": 1,
+                        "lea": 1,
+                        "mov": 2,
+                        "pop": 3,
+                        "push": 3,
+                        "ret": 1,
+                        "sub": 1
+                    },
+                    "50420": {
+                        "add": 1,
+                        "call": 1,
+                        "ret": 1,
+                        "sub": 1
+                    }
+                }
+            },
+            "library_data": {
+                "has_interp": false,
+                "is_dso": true,
+                "is_lib": true,
+                "library_deps": [
+                    "libpthread.so.0",
+                    "libc.so.6"
+                ],
+                "soname": "libgomp.so.1"
+            },
+            "load_lib": {
+                "load_lib_dict": {}
+            },
+            "object_format": "ELF64-x86-64",
+            "relro": {
+                "BINDNOW": false,
+                "RELRO": false
+            },
+            "ret_stats": {
+                "ret_counts": {
+                    "ret": 203
+                },
+                "ret_dists": [
+                    35,
+                    180,
+                    198,
+                    1126,
+                    312,
+                    5245,
+                    39,
+                    43,
+                    111,
+                    109,
+                    30,
+                    38,
+                    30,
+                    26,
+                    15,
+                    10,
+                    21,
+                    39,
+                    29,
+                    20,
+                    13,
+                    20,
+                    13,
+                    70,
+                    30,
+                    12,
+                    22,
+                    14,
+                    6,
+                    7,
+                    13,
+                    27,
+                    12,
+                    5,
+                    2,
+                    5,
+                    147,
+                    386,
+                    75,
+                    1951,
+                    1845,
+                    112,
+                    1692,
+                    434,
+                    74,
+                    3262,
+                    3155,
+                    136,
+                    2966,
+                    125,
+                    204,
+                    39,
+                    40,
+                    13,
+                    30,
+                    129,
+                    137,
+                    177,
+                    177,
+                    12,
+                    89,
+                    93,
+                    93,
+                    21,
+                    21,
+                    21,
+                    88,
+                    140,
+                    191,
+                    39,
+                    40,
+                    13,
+                    135,
+                    133,
+                    143,
+                    184,
+                    184,
+                    133,
+                    12,
+                    89,
+                    93,
+                    93,
+                    291,
+                    90,
+                    80,
+                    117,
+                    34,
+                    72,
+                    100,
+                    0,
+                    232,
+                    115,
+                    45,
+                    92,
+                    211,
+                    24,
+                    11,
+                    18,
+                    11,
+                    55,
+                    67,
+                    11,
+                    131,
+                    33,
+                    42,
+                    90,
+                    54,
+                    24,
+                    198,
+                    14,
+                    45,
+                    145,
+                    45,
+                    75,
+                    103,
+                    129,
+                    40,
+                    13,
+                    50,
+                    549,
+                    632,
+                    635,
+                    106,
+                    35,
+                    2881,
+                    488,
+                    525,
+                    0,
+                    74,
+                    482,
+                    26,
+                    169,
+                    306,
+                    342,
+                    12273,
+                    12556,
+                    71,
+                    24,
+                    111,
+                    21,
+                    52,
+                    338,
+                    16028,
+                    16206,
+                    23,
+                    11,
+                    6,
+                    0,
+                    25,
+                    9,
+                    0,
+                    61,
+                    18,
+                    101,
+                    54,
+                    57,
+                    64,
+                    125,
+                    21850,
+                    486,
+                    9,
+                    365,
+                    108,
+                    54,
+                    57,
+                    66,
+                    63,
+                    163,
+                    115,
+                    116,
+                    24,
+                    13,
+                    23124,
+                    1,
+                    25,
+                    23405,
+                    23595,
+                    112,
+                    166,
+                    63,
+                    62,
+                    62,
+                    28,
+                    46,
+                    48,
+                    109,
+                    11,
+                    150,
+                    104,
+                    162,
+                    19,
+                    197,
+                    1187,
+                    104,
+                    229,
+                    26531,
+                    137,
+                    0,
+                    0,
+                    0,
+                    49,
+                    33,
+                    13
+                ]
+            },
+            "retpoline": {
+                "call_sites": [],
+                "has_retpoline": false
+            },
+            "sandbox_calls": {
+                "sandbox_func_dict": {}
+            },
+            "scop": {
+                "load_count": 2
+            },
+            "section_stats": {
+                "data_entropy": [
+                    [
+                        0,
+                        115
+                    ],
+                    [
+                        1,
+                        5
+                    ],
+                    [
+                        2,
+                        2
+                    ],
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        6,
+                        2
+                    ],
+                    [
+                        33,
+                        1
+                    ],
+                    [
+                        97,
+                        3
+                    ],
+                    [
+                        99,
+                        1
+                    ],
+                    [
+                        100,
+                        1
+                    ],
+                    [
+                        101,
+                        5
+                    ],
+                    [
+                        102,
+                        1
+                    ],
+                    [
+                        108,
+                        2
+                    ],
+                    [
+                        109,
+                        1
+                    ],
+                    [
+                        111,
+                        1
+                    ],
+                    [
+                        112,
+                        1
+                    ],
+                    [
+                        114,
+                        3
+                    ],
+                    [
+                        115,
+                        4
+                    ],
+                    [
+                        116,
+                        2
+                    ],
+                    [
+                        117,
+                        1
+                    ],
+                    [
+                        127,
+                        1
+                    ],
+                    [
+                        128,
+                        1
+                    ],
+                    [
+                        129,
+                        1
+                    ],
+                    [
+                        192,
+                        1
+                    ],
+                    [
+                        255,
+                        7
+                    ]
+                ],
+                "data_flags": [
+                    "SHF_WRITE",
+                    "SHF_ALLOC"
+                ],
+                "data_size": 168,
+                "text_entropy": [
+                    [
+                        0,
+                        3684
+                    ],
+                    [
+                        1,
+                        509
+                    ],
+                    [
+                        2,
+                        102
+                    ],
+                    [
+                        3,
+                        119
+                    ],
+                    [
+                        4,
+                        173
+                    ],
+                    [
+                        5,
+                        357
+                    ],
+                    [
+                        6,
+                        52
+                    ],
+                    [
+                        7,
+                        109
+                    ],
+                    [
+                        8,
+                        312
+                    ],
+                    [
+                        9,
+                        32
+                    ],
+                    [
+                        10,
+                        86
+                    ],
+                    [
+                        11,
+                        50
+                    ],
+                    [
+                        12,
+                        130
+                    ],
+                    [
+                        13,
+                        57
+                    ],
+                    [
+                        14,
+                        49
+                    ],
+                    [
+                        15,
+                        525
+                    ],
+                    [
+                        16,
+                        276
+                    ],
+                    [
+                        17,
+                        47
+                    ],
+                    [
+                        18,
+                        30
+                    ],
+                    [
+                        19,
+                        42
+                    ],
+                    [
+                        20,
+                        69
+                    ],
+                    [
+                        21,
+                        63
+                    ],
+                    [
+                        22,
+                        37
+                    ],
+                    [
+                        23,
+                        42
+                    ],
+                    [
+                        24,
+                        294
+                    ],
+                    [
+                        25,
+                        17
+                    ],
+                    [
+                        26,
+                        25
+                    ],
+                    [
+                        27,
+                        25
+                    ],
+                    [
+                        28,
+                        31
+                    ],
+                    [
+                        29,
+                        36
+                    ],
+                    [
+                        30,
+                        23
+                    ],
+                    [
+                        31,
+                        10
+                    ],
+                    [
+                        32,
+                        553
+                    ],
+                    [
+                        33,
+                        31
+                    ],
+                    [
+                        34,
+                        25
+                    ],
+                    [
+                        35,
+                        16
+                    ],
+                    [
+                        36,
+                        521
+                    ],
+                    [
+                        37,
+                        44
+                    ],
+                    [
+                        38,
+                        13
+                    ],
+                    [
+                        39,
+                        17
+                    ],
+                    [
+                        40,
+                        95
+                    ],
+                    [
+                        41,
+                        88
+                    ],
+                    [
+                        42,
+                        14
+                    ],
+                    [
+                        43,
+                        30
+                    ],
+                    [
+                        44,
+                        45
+                    ],
+                    [
+                        45,
+                        32
+                    ],
+                    [
+                        46,
+                        21
+                    ],
+                    [
+                        47,
+                        22
+                    ],
+                    [
+                        48,
+                        88
+                    ],
+                    [
+                        49,
+                        289
+                    ],
+                    [
+                        50,
+                        26
+                    ],
+                    [
+                        51,
+                        38
+                    ],
+                    [
+                        52,
+                        51
+                    ],
+                    [
+                        53,
+                        101
+                    ],
+                    [
+                        54,
+                        14
+                    ],
+                    [
+                        55,
+                        22
+                    ],
+                    [
+                        56,
+                        78
+                    ],
+                    [
+                        57,
+                        212
+                    ],
+                    [
+                        58,
+                        22
+                    ],
+                    [
+                        59,
+                        68
+                    ],
+                    [
+                        60,
+                        66
+                    ],
+                    [
+                        61,
+                        165
+                    ],
+                    [
+                        62,
+                        21
+                    ],
+                    [
+                        63,
+                        44
+                    ],
+                    [
+                        64,
+                        276
+                    ],
+                    [
+                        65,
+                        697
+                    ],
+                    [
+                        66,
+                        77
+                    ],
+                    [
+                        67,
+                        108
+                    ],
+                    [
+                        68,
+                        411
+                    ],
+                    [
+                        69,
+                        215
+                    ],
+                    [
+                        70,
+                        45
+                    ],
+                    [
+                        71,
+                        74
+                    ],
+                    [
+                        72,
+                        2925
+                    ],
+                    [
+                        73,
+                        460
+                    ],
+                    [
+                        74,
+                        37
+                    ],
+                    [
+                        75,
+                        30
+                    ],
+                    [
+                        76,
+                        570
+                    ],
+                    [
+                        77,
+                        161
+                    ],
+                    [
+                        78,
+                        26
+                    ],
+                    [
+                        79,
+                        30
+                    ],
+                    [
+                        80,
+                        213
+                    ],
+                    [
+                        81,
+                        64
+                    ],
+                    [
+                        82,
+                        41
+                    ],
+                    [
+                        83,
+                        165
+                    ],
+                    [
+                        84,
+                        142
+                    ],
+                    [
+                        85,
+                        153
+                    ],
+                    [
+                        86,
+                        45
+                    ],
+                    [
+                        87,
+                        46
+                    ],
+                    [
+                        88,
+                        125
+                    ],
+                    [
+                        89,
+                        38
+                    ],
+                    [
+                        90,
+                        51
+                    ],
+                    [
+                        91,
+                        146
+                    ],
+                    [
+                        92,
+                        109
+                    ],
+                    [
+                        93,
+                        163
+                    ],
+                    [
+                        94,
+                        48
+                    ],
+                    [
+                        95,
+                        49
+                    ],
+                    [
+                        96,
+                        41
+                    ],
+                    [
+                        97,
+                        10
+                    ],
+                    [
+                        98,
+                        5
+                    ],
+                    [
+                        99,
+                        49
+                    ],
+                    [
+                        100,
+                        294
+                    ],
+                    [
+                        101,
+                        15
+                    ],
+                    [
+                        102,
+                        7
+                    ],
+                    [
+                        103,
+                        15
+                    ],
+                    [
+                        104,
+                        38
+                    ],
+                    [
+                        105,
+                        18
+                    ],
+                    [
+                        106,
+                        23
+                    ],
+                    [
+                        107,
+                        25
+                    ],
+                    [
+                        108,
+                        32
+                    ],
+                    [
+                        109,
+                        11
+                    ],
+                    [
+                        110,
+                        13
+                    ],
+                    [
+                        111,
+                        26
+                    ],
+                    [
+                        112,
+                        50
+                    ],
+                    [
+                        113,
+                        30
+                    ],
+                    [
+                        114,
+                        40
+                    ],
+                    [
+                        115,
+                        74
+                    ],
+                    [
+                        116,
+                        525
+                    ],
+                    [
+                        117,
+                        261
+                    ],
+                    [
+                        118,
+                        50
+                    ],
+                    [
+                        119,
+                        52
+                    ],
+                    [
+                        120,
+                        81
+                    ],
+                    [
+                        121,
+                        40
+                    ],
+                    [
+                        122,
+                        27
+                    ],
+                    [
+                        123,
+                        42
+                    ],
+                    [
+                        124,
+                        88
+                    ],
+                    [
+                        125,
+                        66
+                    ],
+                    [
+                        126,
+                        40
+                    ],
+                    [
+                        127,
+                        72
+                    ],
+                    [
+                        128,
+                        216
+                    ],
+                    [
+                        129,
+                        47
+                    ],
+                    [
+                        130,
+                        15
+                    ],
+                    [
+                        131,
+                        473
+                    ],
+                    [
+                        132,
+                        200
+                    ],
+                    [
+                        133,
+                        475
+                    ],
+                    [
+                        134,
+                        28
+                    ],
+                    [
+                        135,
+                        40
+                    ],
+                    [
+                        136,
+                        51
+                    ],
+                    [
+                        137,
+                        1502
+                    ],
+                    [
+                        138,
+                        49
+                    ],
+                    [
+                        139,
+                        1261
+                    ],
+                    [
+                        140,
+                        48
+                    ],
+                    [
+                        141,
+                        488
+                    ],
+                    [
+                        142,
+                        11
+                    ],
+                    [
+                        143,
+                        15
+                    ],
+                    [
+                        144,
+                        41
+                    ],
+                    [
+                        145,
+                        7
+                    ],
+                    [
+                        146,
+                        14
+                    ],
+                    [
+                        147,
+                        15
+                    ],
+                    [
+                        148,
+                        31
+                    ],
+                    [
+                        149,
+                        70
+                    ],
+                    [
+                        150,
+                        17
+                    ],
+                    [
+                        151,
+                        9
+                    ],
+                    [
+                        152,
+                        24
+                    ],
+                    [
+                        153,
+                        13
+                    ],
+                    [
+                        154,
+                        14
+                    ],
+                    [
+                        155,
+                        10
+                    ],
+                    [
+                        156,
+                        8
+                    ],
+                    [
+                        157,
+                        33
+                    ],
+                    [
+                        158,
+                        24
+                    ],
+                    [
+                        159,
+                        9
+                    ],
+                    [
+                        160,
+                        20
+                    ],
+                    [
+                        161,
+                        37
+                    ],
+                    [
+                        162,
+                        17
+                    ],
+                    [
+                        163,
+                        16
+                    ],
+                    [
+                        164,
+                        11
+                    ],
+                    [
+                        165,
+                        20
+                    ],
+                    [
+                        166,
+                        12
+                    ],
+                    [
+                        167,
+                        10
+                    ],
+                    [
+                        168,
+                        30
+                    ],
+                    [
+                        169,
+                        13
+                    ],
+                    [
+                        170,
+                        20
+                    ],
+                    [
+                        171,
+                        11
+                    ],
+                    [
+                        172,
+                        26
+                    ],
+                    [
+                        173,
+                        34
+                    ],
+                    [
+                        174,
+                        13
+                    ],
+                    [
+                        175,
+                        60
+                    ],
+                    [
+                        176,
+                        46
+                    ],
+                    [
+                        177,
+                        35
+                    ],
+                    [
+                        178,
+                        23
+                    ],
+                    [
+                        179,
+                        7
+                    ],
+                    [
+                        180,
+                        12
+                    ],
+                    [
+                        181,
+                        39
+                    ],
+                    [
+                        182,
+                        86
+                    ],
+                    [
+                        183,
+                        14
+                    ],
+                    [
+                        184,
+                        76
+                    ],
+                    [
+                        185,
+                        52
+                    ],
+                    [
+                        186,
+                        82
+                    ],
+                    [
+                        187,
+                        29
+                    ],
+                    [
+                        188,
+                        15
+                    ],
+                    [
+                        189,
+                        68
+                    ],
+                    [
+                        190,
+                        51
+                    ],
+                    [
+                        191,
+                        62
+                    ],
+                    [
+                        192,
+                        456
+                    ],
+                    [
+                        193,
+                        122
+                    ],
+                    [
+                        194,
+                        114
+                    ],
+                    [
+                        195,
+                        296
+                    ],
+                    [
+                        196,
+                        101
+                    ],
+                    [
+                        197,
+                        76
+                    ],
+                    [
+                        198,
+                        94
+                    ],
+                    [
+                        199,
+                        279
+                    ],
+                    [
+                        200,
+                        84
+                    ],
+                    [
+                        201,
+                        61
+                    ],
+                    [
+                        202,
+                        55
+                    ],
+                    [
+                        203,
+                        19
+                    ],
+                    [
+                        204,
+                        16
+                    ],
+                    [
+                        205,
+                        24
+                    ],
+                    [
+                        206,
+                        22
+                    ],
+                    [
+                        207,
+                        28
+                    ],
+                    [
+                        208,
+                        114
+                    ],
+                    [
+                        209,
+                        29
+                    ],
+                    [
+                        210,
+                        103
+                    ],
+                    [
+                        211,
+                        39
+                    ],
+                    [
+                        212,
+                        15
+                    ],
+                    [
+                        213,
+                        17
+                    ],
+                    [
+                        214,
+                        29
+                    ],
+                    [
+                        215,
+                        25
+                    ],
+                    [
+                        216,
+                        86
+                    ],
+                    [
+                        217,
+                        14
+                    ],
+                    [
+                        218,
+                        43
+                    ],
+                    [
+                        219,
+                        63
+                    ],
+                    [
+                        220,
+                        18
+                    ],
+                    [
+                        221,
+                        14
+                    ],
+                    [
+                        222,
+                        34
+                    ],
+                    [
+                        223,
+                        88
+                    ],
+                    [
+                        224,
+                        49
+                    ],
+                    [
+                        225,
+                        17
+                    ],
+                    [
+                        226,
+                        24
+                    ],
+                    [
+                        227,
+                        21
+                    ],
+                    [
+                        228,
+                        44
+                    ],
+                    [
+                        229,
+                        33
+                    ],
+                    [
+                        230,
+                        48
+                    ],
+                    [
+                        231,
+                        67
+                    ],
+                    [
+                        232,
+                        659
+                    ],
+                    [
+                        233,
+                        232
+                    ],
+                    [
+                        234,
+                        54
+                    ],
+                    [
+                        235,
+                        319
+                    ],
+                    [
+                        236,
+                        85
+                    ],
+                    [
+                        237,
+                        75
+                    ],
+                    [
+                        238,
+                        48
+                    ],
+                    [
+                        239,
+                        94
+                    ],
+                    [
+                        240,
+                        112
+                    ],
+                    [
+                        241,
+                        41
+                    ],
+                    [
+                        242,
+                        47
+                    ],
+                    [
+                        243,
+                        60
+                    ],
+                    [
+                        244,
+                        31
+                    ],
+                    [
+                        245,
+                        59
+                    ],
+                    [
+                        246,
+                        156
+                    ],
+                    [
+                        247,
+                        72
+                    ],
+                    [
+                        248,
+                        112
+                    ],
+                    [
+                        249,
+                        48
+                    ],
+                    [
+                        250,
+                        57
+                    ],
+                    [
+                        251,
+                        71
+                    ],
+                    [
+                        252,
+                        34
+                    ],
+                    [
+                        253,
+                        82
+                    ],
+                    [
+                        254,
+                        175
+                    ],
+                    [
+                        255,
+                        2644
+                    ]
+                ],
+                "text_flags": [
+                    "SHF_ALLOC",
+                    "SHF_EXECINSTR"
+                ],
+                "text_size": 34738
+            },
+            "spectrewidget": {
+                "arg_cnts": [
+                    0,
+                    219,
+                    49,
+                    2,
+                    0,
+                    0,
+                    0
+                ],
+                "argrsv_cnts": [
+                    0,
+                    552,
+                    139,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "byte_cnts": [
+                    0,
+                    0,
+                    0,
+                    69,
+                    86,
+                    54,
+                    44,
+                    117,
+                    138,
+                    105,
+                    48,
+                    56,
+                    44,
+                    28,
+                    25,
+                    38,
+                    30,
+                    20,
+                    18,
+                    12,
+                    15,
+                    14,
+                    12,
+                    12,
+                    7,
+                    6,
+                    6,
+                    4,
+                    7,
+                    3,
+                    5,
+                    4,
+                    4,
+                    6,
+                    5,
+                    3,
+                    2,
+                    4,
+                    5,
+                    3,
+                    3,
+                    3,
+                    2,
+                    2,
+                    3,
+                    3,
+                    2,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    2,
+                    0,
+                    2,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "insn_cnts": [
+                    0,
+                    0,
+                    651,
+                    152,
+                    127,
+                    53,
+                    34,
+                    25,
+                    17,
+                    16,
+                    10,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "reg_cnts": [
+                    0,
+                    791,
+                    290,
+                    8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "rsv_cnts": [
+                    0,
+                    333,
+                    13,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "stack_guards": {
+                "stack_guard_calls": []
+            },
+            "stack_stats": {
+                "stack_adjs": [
+                    8,
+                    24,
+                    88,
+                    24,
+                    104,
+                    216,
+                    216,
+                    24,
+                    40,
+                    24,
+                    32,
+                    24,
+                    24,
+                    24,
+                    32,
+                    24,
+                    24,
+                    24,
+                    16,
+                    16,
+                    16,
+                    56,
+                    16,
+                    16,
+                    16,
+                    32,
+                    24,
+                    24,
+                    24,
+                    24,
+                    24,
+                    24,
+                    24,
+                    24,
+                    24,
+                    24,
+                    24,
+                    16,
+                    16,
+                    16,
+                    24,
+                    24,
+                    24,
+                    24,
+                    56,
+                    312,
+                    24,
+                    56,
+                    24,
+                    24,
+                    24,
+                    16,
+                    32,
+                    24,
+                    16,
+                    16,
+                    24,
+                    24,
+                    248,
+                    112,
+                    8
+                ]
+            },
+            "stripped": {
+                "has_dynamic_seg": true,
+                "has_sections": true
+            },
+            "symbols": {
+                "count": 221
+            }
+        }
+    ],
+    "filename": "overlapping-sections",
+    "filesize": 68584,
+    "magic": "7f454c46",
+    "md5": "c0130130aa35c8750036615aa90bfa29",
+    "sha256": "4de225c0355e56287278eec8d4122075232221c396a0194cbbee10033ed5247c"
+}

@@ -1,0 +1,231 @@
+{
+    "binaries": [
+        {
+            "architecture": "mips",
+            "aslr": {
+                "is_dso": true,
+                "mips_pic": true
+            },
+            "bin_name": "",
+            "bitness": 32,
+            "branch_stats": {
+                "branch_dict": {
+                    "b": 7,
+                    "beq": 2,
+                    "beqz": 5,
+                    "bne": 1,
+                    "bnez": 6,
+                    "jr": 5
+                }
+            },
+            "call_stats": {
+                "call_dict": {
+                    "bal": 3,
+                    "jalr": 13
+                }
+            },
+            "cfg": {
+                "blocks": 52,
+                "functions": 8,
+                "sweep_func_count": 1,
+                "switch_tbl_count": 0
+            },
+            "code_qa": {
+                "imported_func_calls": 6,
+                "imported_func_syms": 7,
+                "imported_not_called": 2
+            },
+            "code_signing": {
+                "is_signed": false
+            },
+            "dep": {
+                "allow_stack_exec": true,
+                "have_gnu_stack": true,
+                "have_openbsd_rand_dat": false
+            },
+            "driver": {
+                "is_driver": false
+            },
+            "endian": "big",
+            "filetype": "ELF",
+            "fortify_src": {
+                "fort_dict": {},
+                "unfort_dict": {}
+            },
+            "func_calls": {
+                "bad_funcs": {},
+                "good_funcs": {},
+                "ick_funcs": {},
+                "risky_funcs": {
+                    "strlen": 1
+                }
+            },
+            "func_insn_stats": {
+                "instruction_dict": {
+                    "1980": {
+                        "addiu": 2,
+                        "addu": 1,
+                        "bal": 1,
+                        "lui": 1,
+                        "nop": 1,
+                        "sw": 3
+                    },
+                    "2016": {
+                        "addiu": 2,
+                        "addu": 1,
+                        "bal": 1,
+                        "jalr": 1,
+                        "lui": 1,
+                        "lw": 2,
+                        "nop": 4
+                    },
+                    "2064": {
+                        "addiu": 3,
+                        "addu": 1,
+                        "jalr": 1,
+                        "jr": 1,
+                        "lui": 1,
+                        "lw": 3,
+                        "nop": 3
+                    },
+                    "2128": {
+                        "addiu": 6,
+                        "addu": 1,
+                        "b": 1,
+                        "beqz": 2,
+                        "bnez": 2,
+                        "jalr": 3,
+                        "jr": 1,
+                        "lbu": 1,
+                        "lui": 1,
+                        "lw": 15,
+                        "nop": 16,
+                        "sb": 1,
+                        "sw": 3
+                    },
+                    "2548": {
+                        "addiu": 2,
+                        "addu": 1,
+                        "jr": 1,
+                        "lui": 1,
+                        "lw": 2
+                    },
+                    "2704": {
+                        "addiu": 30,
+                        "addu": 2,
+                        "b": 6,
+                        "beq": 2,
+                        "beqz": 3,
+                        "bne": 1,
+                        "bnez": 4,
+                        "jalr": 7,
+                        "jr": 1,
+                        "lbu": 1,
+                        "lui": 1,
+                        "lw": 55,
+                        "move": 15,
+                        "sb": 4,
+                        "sll": 1,
+                        "sltiu": 1,
+                        "sw": 15
+                    },
+                    "3552": {
+                        "addiu": 2,
+                        "addu": 1,
+                        "bal": 1,
+                        "lui": 1,
+                        "nop": 1,
+                        "sw": 3
+                    },
+                    "3588": {
+                        "addiu": 3,
+                        "addu": 1,
+                        "jalr": 1,
+                        "jr": 1,
+                        "lui": 1,
+                        "lw": 3,
+                        "nop": 3
+                    }
+                }
+            },
+            "library_data": {
+                "has_interp": false,
+                "is_dso": true,
+                "is_lib": true,
+                "library_deps": [
+                    "libc.so.0"
+                ],
+                "soname": ""
+            },
+            "load_lib": {
+                "load_lib_dict": {}
+            },
+            "object_format": "ELF32-mips",
+            "relro": {
+                "BINDNOW": false,
+                "RELRO": false
+            },
+            "ret_stats": {
+                "ret_counts": {
+                    "jr": 5
+                },
+                "ret_dists": [
+                    44,
+                    204,
+                    20,
+                    588,
+                    44
+                ]
+            },
+            "retpoline": {
+                "call_sites": [],
+                "has_retpoline": false
+            },
+            "sandbox_calls": {
+                "sandbox_func_dict": {}
+            },
+            "scop": {
+                "load_count": 2
+            },
+            "section_stats": {
+                "data_entropy": [],
+                "data_flags": [
+                    "PF_R",
+                    "PF_W"
+                ],
+                "data_size": 468,
+                "text_entropy": [],
+                "text_flags": [
+                    "PF_R",
+                    "PF_W",
+                    "PF_X"
+                ],
+                "text_size": 5837
+            },
+            "spectrewidget": null,
+            "stack_guards": {
+                "stack_guard_calls": []
+            },
+            "stack_stats": {
+                "stack_adjs": [
+                    32,
+                    32,
+                    72,
+                    32
+                ]
+            },
+            "stripped": {
+                "has_dynamic_seg": true,
+                "has_sections": false
+            },
+            "symbols": {
+                "count": 11
+            }
+        }
+    ],
+    "filename": "symtab-und-plts",
+    "filesize": 4828,
+    "magic": "7f454c46",
+    "md5": "697a86a5d105105fe031b84f54f1af19",
+    "sha256": "39fa84f7aec3420f94cb6ae4bd5e06ee1ae86807c7d35dc4080cac337f59ce61"
+}

@@ -1,0 +1,342 @@
+{
+    "binaries": [
+        {
+            "architecture": "arm",
+            "aslr": {
+                "is_dso": true
+            },
+            "bin_name": "",
+            "bitness": 32,
+            "branch_stats": {
+                "branch_dict": {
+                    "b": 27,
+                    "b.w": 1,
+                    "beq": 9,
+                    "beq.w": 10,
+                    "bgt": 2,
+                    "bgt.w": 2,
+                    "bl": 5,
+                    "ble": 1,
+                    "ble.w": 1,
+                    "bls": 1,
+                    "blt.w": 2,
+                    "blx": 167,
+                    "bne": 11,
+                    "bne.w": 10,
+                    "bx": 5,
+                    "bxeq": 4,
+                    "bxls": 1,
+                    "cbnz": 1,
+                    "cbz": 2
+                }
+            },
+            "call_stats": {
+                "call_dict": {
+                    "bl": 5,
+                    "blx": 167
+                }
+            },
+            "cfg": {
+                "blocks": 278,
+                "functions": 14,
+                "sweep_func_count": 4,
+                "switch_tbl_count": 0
+            },
+            "code_qa": {
+                "imported_func_calls": 169,
+                "imported_func_syms": 49,
+                "imported_not_called": 11
+            },
+            "code_signing": {
+                "is_signed": false
+            },
+            "dep": {
+                "allow_stack_exec": false,
+                "have_gnu_stack": true,
+                "have_openbsd_rand_dat": false
+            },
+            "driver": {
+                "is_driver": false
+            },
+            "endian": "little",
+            "filetype": "ELF",
+            "fortify_src": {
+                "fort_dict": {},
+                "unfort_dict": {
+                    "memset": 9,
+                    "snprintf": 1,
+                    "syslog": 12
+                }
+            },
+            "func_calls": {
+                "bad_funcs": {},
+                "good_funcs": {},
+                "ick_funcs": {},
+                "risky_funcs": {
+                    "snprintf": 1
+                }
+            },
+            "func_insn_stats": {
+                "instruction_dict": {
+                    "3780": {
+                        "bl": 1,
+                        "pop": 1,
+                        "push": 1
+                    },
+                    "3792": {
+                        "add": 1,
+                        "ldr": 2,
+                        "str": 1
+                    },
+                    "4324": {
+                        "qsub16mi": 1,
+                        "stcmi": 1,
+                        "stmib": 1,
+                        "strlo": 1
+                    },
+                    "4388": {
+                        "add": 1,
+                        "b": 1,
+                        "bxeq": 1,
+                        "cmp": 1,
+                        "ldr": 3
+                    },
+                    "4424": {
+                        "add": 4,
+                        "bx": 1,
+                        "bxeq": 1,
+                        "bxls": 1,
+                        "cmp": 2,
+                        "ldr": 5,
+                        "rsb": 1
+                    },
+                    "4608": {
+                        "add": 1,
+                        "beq": 1,
+                        "bl": 2,
+                        "cmp": 1,
+                        "ldr": 5,
+                        "mov": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "strb": 1
+                    },
+                    "4684": {
+                        "add": 6,
+                        "asr": 1,
+                        "asrs": 1,
+                        "b": 2,
+                        "beq": 1,
+                        "blx": 1,
+                        "bne": 1,
+                        "bx": 1,
+                        "bxeq": 2,
+                        "cmp": 3,
+                        "ldr": 10,
+                        "pop": 1,
+                        "push": 1,
+                        "rsb": 1
+                    },
+                    "4760": {
+                        "add": 1,
+                        "add.w": 3,
+                        "b.w": 1,
+                        "bgt": 1,
+                        "ble": 1,
+                        "bne": 1,
+                        "bx": 1,
+                        "cbz": 1,
+                        "cmp": 2,
+                        "cmp.w": 1,
+                        "dmb": 2,
+                        "ldr": 6,
+                        "ldrex": 1,
+                        "str": 2,
+                        "strex": 1
+                    },
+                    "4840": {
+                        "add": 9,
+                        "add.w": 2,
+                        "b": 2,
+                        "bgt": 1,
+                        "blx": 24,
+                        "bne": 2,
+                        "cbz": 1,
+                        "cmp": 3,
+                        "dmb": 2,
+                        "ldr": 11,
+                        "ldrd": 2,
+                        "ldrex": 1,
+                        "mov": 36,
+                        "mov.w": 9,
+                        "pop.w": 1,
+                        "str": 1,
+                        "strd": 3,
+                        "strex": 1,
+                        "sub": 1,
+                        "sub.w": 2
+                    },
+                    "5236": {
+                        "add": 72,
+                        "add.w": 29,
+                        "addw": 1,
+                        "and.w": 1,
+                        "b": 22,
+                        "beq": 7,
+                        "beq.w": 10,
+                        "bgt.w": 2,
+                        "ble.w": 1,
+                        "bls": 1,
+                        "blt.w": 2,
+                        "blx": 139,
+                        "bne": 7,
+                        "bne.w": 10,
+                        "cbnz": 1,
+                        "cmn.w": 1,
+                        "cmp": 35,
+                        "cmp.w": 1,
+                        "dmb": 4,
+                        "eor": 1,
+                        "ldr": 74,
+                        "ldr.w": 40,
+                        "ldrb": 4,
+                        "ldrb.w": 2,
+                        "ldrd": 5,
+                        "ldrex": 2,
+                        "mov": 159,
+                        "mov.w": 92,
+                        "movw": 3,
+                        "rev": 1,
+                        "str": 95,
+                        "str.w": 8,
+                        "strd": 9,
+                        "strex": 2,
+                        "strh": 1,
+                        "strh.w": 1,
+                        "sub": 1,
+                        "sub.w": 20,
+                        "subs": 2,
+                        "uxtb": 1
+                    },
+                    "8252": {
+                        "add": 2,
+                        "bl": 2,
+                        "blx": 3,
+                        "ldr": 1,
+                        "ldrd": 1,
+                        "mov": 8,
+                        "mov.w": 1,
+                        "str": 1,
+                        "strd": 1,
+                        "sub": 1
+                    },
+                    "8324": {
+                        "add": 1,
+                        "bx": 1,
+                        "ldr": 3
+                    },
+                    "8352": {
+                        "add": 1,
+                        "bx": 1,
+                        "ldr": 3
+                    },
+                    "8372": {
+                        "pop": 1,
+                        "push": 1
+                    }
+                }
+            },
+            "library_data": {
+                "has_interp": false,
+                "is_dso": true,
+                "is_lib": true,
+                "library_deps": [
+                    "libsynoapinetwork.so",
+                    "libsynonetsdk.so.6",
+                    "libdsm.so.6",
+                    "libjson.so",
+                    "libwebapi-DSM5.so",
+                    "libsynosdk.so.6",
+                    "libstdc++.so.6",
+                    "libpthread.so.0",
+                    "libc.so.6"
+                ],
+                "soname": "SYNO.DSM.Network.so"
+            },
+            "load_lib": {
+                "load_lib_dict": {}
+            },
+            "object_format": "ELF32-arm-little",
+            "relro": {
+                "BINDNOW": false,
+                "RELRO": true
+            },
+            "ret_stats": {
+                "ret_counts": {
+                    "bx": 2,
+                    "bxeq": 4,
+                    "bxls": 1,
+                    "pop": 3,
+                    "pop.w": 1
+                },
+                "ret_dists": [
+                    8,
+                    20,
+                    36,
+                    52,
+                    144,
+                    128,
+                    52,
+                    262,
+                    8,
+                    8,
+                    4
+                ]
+            },
+            "retpoline": {
+                "call_sites": [],
+                "has_retpoline": false
+            },
+            "sandbox_calls": {
+                "sandbox_func_dict": {}
+            },
+            "scop": {
+                "load_count": 2
+            },
+            "section_stats": {
+                "data_entropy": [],
+                "data_flags": [
+                    "PF_R"
+                ],
+                "data_size": 1230,
+                "text_entropy": [],
+                "text_flags": [
+                    "PF_R",
+                    "PF_X"
+                ],
+                "text_size": 9212
+            },
+            "spectrewidget": null,
+            "stack_guards": {
+                "stack_guard_calls": []
+            },
+            "stack_stats": {
+                "stack_adjs": [
+                    6816
+                ]
+            },
+            "stripped": {
+                "has_dynamic_seg": true,
+                "has_sections": false
+            },
+            "symbols": {
+                "count": 56
+            }
+        }
+    ],
+    "filename": "tail-call-bug",
+    "filesize": 12558,
+    "magic": "7f454c46",
+    "md5": "87ee5cf6afff7163d729ce2748ba0815",
+    "sha256": "8e65ec45ca446275c2b173a2364a3e92cc29dc412fa170a014886b8b99d4a934"
+}

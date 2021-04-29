@@ -1,0 +1,2054 @@
+{
+    "binaries": [
+        {
+            "architecture": "arm",
+            "aslr": {
+                "is_dso": true
+            },
+            "bin_name": "",
+            "bitness": 32,
+            "branch_stats": {
+                "branch_dict": {
+                    "b": 81,
+                    "beq": 58,
+                    "bge": 8,
+                    "bgt": 20,
+                    "bhi": 6,
+                    "bl": 275,
+                    "ble": 31,
+                    "bls": 2,
+                    "blt": 19,
+                    "blx": 1,
+                    "bne": 47,
+                    "bpl": 1,
+                    "bx": 15,
+                    "bxeq": 1
+                }
+            },
+            "call_stats": {
+                "call_dict": {
+                    "bl": 275,
+                    "blx": 1
+                }
+            },
+            "cfg": {
+                "blocks": 651,
+                "functions": 50,
+                "sweep_func_count": 14,
+                "switch_tbl_count": 0
+            },
+            "code_qa": {
+                "imported_func_calls": 197,
+                "imported_func_syms": 43,
+                "imported_not_called": 0
+            },
+            "code_signing": {
+                "is_signed": false
+            },
+            "dep": {
+                "allow_stack_exec": false,
+                "have_gnu_stack": true,
+                "have_openbsd_rand_dat": false
+            },
+            "driver": {
+                "is_driver": false
+            },
+            "endian": "little",
+            "filetype": "ELF",
+            "fortify_src": {
+                "fort_dict": {
+                    "__sprintf_chk": 1
+                },
+                "unfort_dict": {
+                    "fprintf": 6,
+                    "read": 2,
+                    "sprintf": 1,
+                    "strcpy": 1,
+                    "strncpy": 1
+                }
+            },
+            "func_calls": {
+                "bad_funcs": {
+                    "sprintf": 1,
+                    "sscanf": 3,
+                    "strcpy": 1
+                },
+                "good_funcs": {},
+                "ick_funcs": {},
+                "risky_funcs": {
+                    "open": 7,
+                    "strncpy": 1
+                }
+            },
+            "func_insn_stats": {
+                "instruction_dict": {
+                    "10064": {
+                        "add": 6,
+                        "b": 1,
+                        "beq": 1,
+                        "bl": 1,
+                        "bne": 1,
+                        "cmp": 4,
+                        "ldr": 5,
+                        "ldrb": 3,
+                        "ldrbeq": 1,
+                        "mov": 5,
+                        "moveq": 1,
+                        "movne": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "strb": 3,
+                        "sub": 1
+                    },
+                    "10224": {
+                        "add": 16,
+                        "b": 4,
+                        "beq": 3,
+                        "bl": 12,
+                        "bne": 4,
+                        "bx": 1,
+                        "cmp": 11,
+                        "ldm": 2,
+                        "ldr": 28,
+                        "ldrb": 1,
+                        "ldrsh": 2,
+                        "lsl": 1,
+                        "lsr": 2,
+                        "mov": 15,
+                        "movge": 2,
+                        "movlt": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "rsb": 5,
+                        "stm": 2,
+                        "str": 13,
+                        "strne": 1,
+                        "sub": 2,
+                        "subne": 1
+                    },
+                    "10784": {
+                        "add": 18,
+                        "addeq": 1,
+                        "b": 1,
+                        "beq": 2,
+                        "bl": 14,
+                        "blt": 1,
+                        "bne": 2,
+                        "cmp": 6,
+                        "ldr": 20,
+                        "ldreq": 2,
+                        "mov": 21,
+                        "movne": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 4,
+                        "strb": 2,
+                        "sub": 1,
+                        "subs": 1
+                    },
+                    "11232": {
+                        "add": 2,
+                        "bx": 1,
+                        "ldr": 1,
+                        "ldrh": 9,
+                        "mov": 1,
+                        "stm": 1,
+                        "strh": 11,
+                        "sub": 1
+                    },
+                    "11340": {
+                        "bhi": 3,
+                        "bx": 2,
+                        "cmp": 4,
+                        "ldr": 6,
+                        "mov": 1,
+                        "movhi": 1,
+                        "movls": 1,
+                        "sub": 4
+                    },
+                    "11440": {
+                        "add": 10,
+                        "asr": 2,
+                        "bgt": 2,
+                        "bl": 6,
+                        "ble": 2,
+                        "bne": 2,
+                        "cmp": 6,
+                        "eor": 2,
+                        "ldr": 20,
+                        "mov": 8,
+                        "pop": 1,
+                        "push": 1,
+                        "rsb": 2,
+                        "rsblt": 1,
+                        "str": 8,
+                        "sub": 5,
+                        "subs": 1,
+                        "vcvt.s32.f64": 1,
+                        "vdiv.f64": 2,
+                        "vldr": 8,
+                        "vmov": 1,
+                        "vmul.f64": 1,
+                        "vstr": 3,
+                        "vsub.f64": 1
+                    },
+                    "12400": {
+                        "add": 71,
+                        "addle": 2,
+                        "addls": 1,
+                        "addlt": 1,
+                        "andgt": 1,
+                        "asr": 20,
+                        "b": 40,
+                        "beq": 18,
+                        "bge": 7,
+                        "bgt": 18,
+                        "bhi": 3,
+                        "bic": 1,
+                        "bl": 29,
+                        "ble": 17,
+                        "bls": 2,
+                        "blt": 13,
+                        "bne": 7,
+                        "bpl": 1,
+                        "cmn": 14,
+                        "cmp": 95,
+                        "cmpne": 4,
+                        "eor": 11,
+                        "eormi": 1,
+                        "ldm": 3,
+                        "ldr": 154,
+                        "ldrd": 6,
+                        "ldrge": 1,
+                        "mla": 1,
+                        "mov": 53,
+                        "moveq": 6,
+                        "movge": 4,
+                        "movgt": 4,
+                        "movhi": 4,
+                        "movle": 6,
+                        "movlo": 1,
+                        "movls": 3,
+                        "movlt": 5,
+                        "movmi": 1,
+                        "movne": 8,
+                        "mul": 6,
+                        "mvn": 5,
+                        "orrgt": 1,
+                        "orrlt": 1,
+                        "orrs": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "rsb": 27,
+                        "rsbls": 2,
+                        "rsblt": 5,
+                        "rsbs": 1,
+                        "stm": 3,
+                        "str": 148,
+                        "strb": 1,
+                        "strd": 2,
+                        "streq": 1,
+                        "strgt": 6,
+                        "strlt": 3,
+                        "strne": 4,
+                        "sub": 19,
+                        "subgt": 1,
+                        "vcmp.f64": 8,
+                        "vcmpe.f64": 5,
+                        "vcvt.f64.s32": 25,
+                        "vcvt.s32.f64": 8,
+                        "vcvtle.f64.s32": 1,
+                        "vdiv.f64": 15,
+                        "vldr": 22,
+                        "vmla.f64": 5,
+                        "vmls.f64": 3,
+                        "vmov": 69,
+                        "vmov.f64": 8,
+                        "vmovle": 1,
+                        "vmovmi.f64": 3,
+                        "vmrs": 13,
+                        "vmul.f64": 19,
+                        "vneg.f64": 1,
+                        "vnmls.f64": 4,
+                        "vnmul.f64": 1,
+                        "vpop": 1,
+                        "vpush": 1,
+                        "vsqrt.f64": 3,
+                        "vstr": 1
+                    },
+                    "16848": {
+                        "add": 4,
+                        "bl": 2,
+                        "ldr": 2,
+                        "mov": 6,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 2
+                    },
+                    "16928": {
+                        "bx": 1,
+                        "mov": 2,
+                        "str": 4,
+                        "strb": 1
+                    },
+                    "16960": {
+                        "add": 10,
+                        "addgt": 2,
+                        "addlt": 3,
+                        "asr": 4,
+                        "asrgt": 1,
+                        "asrlt": 1,
+                        "b": 5,
+                        "beq": 3,
+                        "bge": 1,
+                        "bl": 1,
+                        "ble": 5,
+                        "blt": 4,
+                        "bne": 2,
+                        "cmn": 1,
+                        "cmp": 18,
+                        "ldr": 12,
+                        "ldrb": 2,
+                        "lsl": 1,
+                        "mov": 8,
+                        "movhi": 1,
+                        "movle": 1,
+                        "movlt": 2,
+                        "movne": 2,
+                        "mvn": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "rsb": 6,
+                        "smull": 2,
+                        "str": 13,
+                        "strbne": 1,
+                        "strge": 1,
+                        "strhi": 2,
+                        "strlt": 1,
+                        "strne": 3,
+                        "sub": 1,
+                        "subge": 1,
+                        "subgt": 1,
+                        "sublt": 1,
+                        "subs": 1
+                    },
+                    "17472": {
+                        "add": 1,
+                        "bl": 2,
+                        "cmp": 1,
+                        "mov": 4,
+                        "moveq": 1,
+                        "movne": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 1,
+                        "strbeq": 1,
+                        "strbne": 1
+                    },
+                    "3120": {
+                        "add": 49,
+                        "b": 8,
+                        "beq": 4,
+                        "bl": 43,
+                        "blt": 1,
+                        "bne": 7,
+                        "cmn": 1,
+                        "cmp": 11,
+                        "ldr": 63,
+                        "mov": 50,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 21,
+                        "sub": 1
+                    },
+                    "4336": {
+                        "add": 3,
+                        "andeq": 1,
+                        "bl": 1,
+                        "ldr": 10,
+                        "mov": 4,
+                        "push": 1,
+                        "str": 4,
+                        "sub": 2
+                    },
+                    "4456": {
+                        "add": 1,
+                        "beq": 1,
+                        "blx": 1,
+                        "cmp": 1,
+                        "ldr": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 1,
+                        "sub": 2
+                    },
+                    "4500": {
+                        "add": 3,
+                        "bl": 1,
+                        "ldr": 3,
+                        "mov": 4,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 1,
+                        "sub": 2
+                    },
+                    "4596": {
+                        "add": 1,
+                        "andeq": 1,
+                        "b": 1,
+                        "bl": 3,
+                        "bne": 1,
+                        "cmp": 1,
+                        "ldr": 3,
+                        "mov": 2,
+                        "pop": 1,
+                        "push": 1
+                    },
+                    "4660": {
+                        "bl": 6,
+                        "ldm": 1,
+                        "mov": 10,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 3
+                    },
+                    "4748": {
+                        "add": 16,
+                        "asr": 4,
+                        "b": 1,
+                        "bl": 11,
+                        "ble": 2,
+                        "bne": 2,
+                        "cmp": 9,
+                        "ldm": 1,
+                        "ldr": 19,
+                        "mla": 1,
+                        "mls": 2,
+                        "mov": 10,
+                        "movge": 1,
+                        "movgt": 2,
+                        "movhs": 1,
+                        "movle": 1,
+                        "movlo": 1,
+                        "movlt": 1,
+                        "movne": 1,
+                        "movt": 4,
+                        "movw": 4,
+                        "movwle": 2,
+                        "mul": 1,
+                        "mulgt": 1,
+                        "pop": 3,
+                        "push": 1,
+                        "rsb": 5,
+                        "smull": 3,
+                        "stm": 1,
+                        "str": 10,
+                        "sub": 2
+                    },
+                    "5272": {
+                        "add": 4,
+                        "b": 1,
+                        "beq": 2,
+                        "bl": 6,
+                        "bne": 1,
+                        "cmp": 3,
+                        "ldm": 2,
+                        "ldr": 6,
+                        "mov": 5,
+                        "pop": 1,
+                        "push": 1,
+                        "stm": 1,
+                        "str": 1,
+                        "sub": 1
+                    },
+                    "5412": {
+                        "add": 6,
+                        "beq": 1,
+                        "bl": 7,
+                        "cmp": 1,
+                        "ldr": 8,
+                        "mov": 4,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 3,
+                        "sub": 1
+                    },
+                    "5560": {
+                        "b": 1,
+                        "bl": 2,
+                        "ldr": 3,
+                        "mov": 1,
+                        "pop": 1,
+                        "push": 1
+                    },
+                    "5596": {
+                        "add": 6,
+                        "b": 1,
+                        "beq": 1,
+                        "bl": 4,
+                        "cmp": 1,
+                        "ldr": 7,
+                        "mov": 2,
+                        "movt": 1,
+                        "movw": 1,
+                        "pop": 1,
+                        "str": 4,
+                        "sub": 1
+                    },
+                    "5604": {
+                        "add": 6,
+                        "b": 1,
+                        "beq": 1,
+                        "bl": 4,
+                        "cmp": 1,
+                        "ldr": 7,
+                        "mov": 2,
+                        "movt": 1,
+                        "movw": 1,
+                        "pop": 1,
+                        "str": 4,
+                        "sub": 1
+                    },
+                    "5612": {
+                        "add": 5,
+                        "beq": 1,
+                        "bl": 5,
+                        "bne": 1,
+                        "cmn": 1,
+                        "cmp": 1,
+                        "ldr": 7,
+                        "mov": 9,
+                        "movt": 1,
+                        "movw": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 1,
+                        "strb": 1,
+                        "sub": 1
+                    },
+                    "5772": {
+                        "bx": 1,
+                        "mov": 1,
+                        "str": 3
+                    },
+                    "5792": {
+                        "bx": 1,
+                        "stm": 1
+                    },
+                    "5800": {
+                        "add": 5,
+                        "bx": 1,
+                        "ldr": 6,
+                        "pop": 1,
+                        "push": 1,
+                        "stmib": 1,
+                        "str": 3,
+                        "sub": 1
+                    },
+                    "5876": {
+                        "add": 14,
+                        "and": 1,
+                        "b": 1,
+                        "beq": 2,
+                        "bl": 12,
+                        "bne": 3,
+                        "cmn": 1,
+                        "cmp": 5,
+                        "ldr": 18,
+                        "ldrb": 1,
+                        "ldrh": 1,
+                        "mov": 11,
+                        "moveq": 1,
+                        "movt": 3,
+                        "movw": 3,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 7,
+                        "strb": 1,
+                        "streq": 1,
+                        "strh": 1,
+                        "sub": 1
+                    },
+                    "6284": {
+                        "add": 6,
+                        "beq": 1,
+                        "bl": 4,
+                        "cmp": 1,
+                        "ldr": 6,
+                        "ldrh": 1,
+                        "mov": 2,
+                        "movt": 1,
+                        "movw": 1,
+                        "pop": 1,
+                        "str": 4,
+                        "sub": 1
+                    },
+                    "6416": {
+                        "add": 5,
+                        "b": 1,
+                        "bl": 4,
+                        "bne": 1,
+                        "ldm": 1,
+                        "ldr": 4,
+                        "ldrsh": 3,
+                        "mov": 6,
+                        "movt": 1,
+                        "movw": 1,
+                        "mvn": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "stm": 1,
+                        "sub": 1,
+                        "subs": 1
+                    },
+                    "6556": {
+                        "bx": 1,
+                        "ldm": 1,
+                        "mov": 2,
+                        "stm": 1
+                    },
+                    "6576": {
+                        "add": 5,
+                        "beq": 1,
+                        "bl": 4,
+                        "cmp": 1,
+                        "ldr": 6,
+                        "mov": 3,
+                        "movt": 1,
+                        "movw": 1,
+                        "pop": 1,
+                        "str": 4,
+                        "sub": 1
+                    },
+                    "6704": {
+                        "add": 34,
+                        "b": 5,
+                        "beq": 6,
+                        "bl": 21,
+                        "bne": 5,
+                        "cmp": 5,
+                        "ldr": 44,
+                        "ldrb": 5,
+                        "ldrh": 5,
+                        "lsl": 2,
+                        "mov": 26,
+                        "moveq": 2,
+                        "movne": 2,
+                        "movt": 4,
+                        "movw": 4,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 26,
+                        "strb": 5,
+                        "strh": 5,
+                        "sub": 1,
+                        "subs": 4,
+                        "tst": 4
+                    },
+                    "7668": {
+                        "add": 12,
+                        "b": 1,
+                        "beq": 1,
+                        "bl": 9,
+                        "bne": 1,
+                        "cmp": 2,
+                        "ldr": 13,
+                        "ldrb": 1,
+                        "ldrh": 1,
+                        "mov": 10,
+                        "movt": 2,
+                        "movw": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 8,
+                        "strb": 1,
+                        "strh": 1,
+                        "sub": 1
+                    },
+                    "7976": {
+                        "add": 12,
+                        "b": 1,
+                        "beq": 1,
+                        "bl": 8,
+                        "bne": 1,
+                        "cmp": 2,
+                        "ldr": 13,
+                        "ldrb": 1,
+                        "ldrh": 1,
+                        "mov": 7,
+                        "movt": 2,
+                        "movw": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 7,
+                        "strb": 1,
+                        "strh": 1,
+                        "sub": 1
+                    },
+                    "8264": {
+                        "add": 1,
+                        "bx": 1,
+                        "ldr": 1,
+                        "str": 1
+                    },
+                    "8280": {
+                        "bl": 1,
+                        "cmp": 1,
+                        "ldr": 1,
+                        "mov": 3,
+                        "pop": 1,
+                        "pople": 1,
+                        "push": 1,
+                        "str": 1
+                    },
+                    "8576": {
+                        "add": 4,
+                        "b": 1,
+                        "beq": 2,
+                        "bl": 6,
+                        "cmn": 1,
+                        "cmp": 1,
+                        "ldr": 4,
+                        "mov": 7,
+                        "movt": 1,
+                        "movw": 2,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 1
+                    },
+                    "8720": {
+                        "bx": 1,
+                        "mvn": 1
+                    },
+                    "8728": {
+                        "add": 10,
+                        "b": 1,
+                        "bl": 6,
+                        "bne": 2,
+                        "cmp": 1,
+                        "ldm": 1,
+                        "ldr": 14,
+                        "mov": 8,
+                        "movt": 1,
+                        "movw": 1,
+                        "mvn": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "stm": 1,
+                        "str": 2,
+                        "sub": 1,
+                        "subs": 1
+                    },
+                    "8960": {
+                        "bx": 1
+                    },
+                    "8964": {
+                        "asrgt": 1,
+                        "b": 1,
+                        "bl": 1,
+                        "bx": 1,
+                        "bxeq": 1,
+                        "cmp": 2,
+                        "ldr": 4,
+                        "mov": 1,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 1,
+                        "strgt": 1
+                    },
+                    "8992": {
+                        "add": 15,
+                        "beq": 1,
+                        "bl": 11,
+                        "cmp": 1,
+                        "ldm": 5,
+                        "ldr": 16,
+                        "ldrb": 1,
+                        "mov": 22,
+                        "pop": 1,
+                        "push": 1,
+                        "stm": 3,
+                        "str": 4,
+                        "strb": 1,
+                        "sub": 1
+                    },
+                    "9324": {
+                        "add": 15,
+                        "asr": 1,
+                        "b": 3,
+                        "beq": 2,
+                        "bl": 9,
+                        "ble": 3,
+                        "bne": 1,
+                        "cmp": 5,
+                        "cmpeq": 1,
+                        "ldr": 17,
+                        "mov": 17,
+                        "movle": 1,
+                        "pop": 2,
+                        "push": 2,
+                        "stm": 1,
+                        "str": 24,
+                        "strle": 1,
+                        "strne": 1,
+                        "sub": 5,
+                        "subs": 1,
+                        "vldr": 6,
+                        "vmul.f64": 1,
+                        "vstr": 5
+                    },
+                    "9352": {
+                        "bl": 4,
+                        "mov": 8,
+                        "pop": 1,
+                        "push": 1,
+                        "str": 4
+                    },
+                    "9424": {
+                        "add": 2,
+                        "and": 1,
+                        "beq": 1,
+                        "bne": 1,
+                        "bx": 1,
+                        "cmp": 2,
+                        "eor": 2,
+                        "ldm": 1,
+                        "ldr": 2,
+                        "ldrb": 1,
+                        "mov": 1,
+                        "mvn": 2,
+                        "str": 1
+                    },
+                    "9500": {
+                        "bl": 1,
+                        "cmp": 1,
+                        "ldr": 3,
+                        "mov": 2,
+                        "moveq": 1,
+                        "movne": 1,
+                        "pop": 1,
+                        "push": 1
+                    },
+                    "9588": {
+                        "add": 2,
+                        "bx": 1,
+                        "ldr": 5,
+                        "str": 1
+                    },
+                    "9636": {
+                        "add": 18,
+                        "b": 1,
+                        "beq": 1,
+                        "bl": 13,
+                        "ble": 2,
+                        "bne": 1,
+                        "cmp": 3,
+                        "ldm": 2,
+                        "ldr": 18,
+                        "mov": 11,
+                        "pop": 1,
+                        "push": 1,
+                        "rsb": 3,
+                        "stm": 2,
+                        "str": 3,
+                        "sub": 1,
+                        "subs": 1
+                    },
+                    "9988": {
+                        "add": 4,
+                        "beq": 1,
+                        "bl": 1,
+                        "bne": 1,
+                        "cmp": 2,
+                        "ldr": 2,
+                        "mov": 4,
+                        "pop": 2,
+                        "push": 1
+                    }
+                }
+            },
+            "library_data": {
+                "has_interp": true,
+                "is_dso": true,
+                "is_lib": false,
+                "library_deps": [
+                    "libc.so",
+                    "libcutils.so",
+                    "liblog.so",
+                    "libm.so",
+                    "libstdc++.so"
+                ],
+                "soname": ""
+            },
+            "load_lib": {
+                "load_lib_dict": {}
+            },
+            "object_format": "ELF32-arm-little",
+            "relro": {
+                "BINDNOW": false,
+                "RELRO": true
+            },
+            "ret_stats": {
+                "ret_counts": {
+                    "bx": 15,
+                    "bxeq": 1,
+                    "pop": 37,
+                    "pople": 1
+                },
+                "ret_dists": [
+                    176,
+                    40,
+                    60,
+                    56,
+                    84,
+                    320,
+                    340,
+                    488,
+                    32,
+                    128,
+                    140,
+                    16,
+                    4,
+                    72,
+                    292,
+                    112,
+                    84,
+                    16,
+                    108,
+                    792,
+                    196,
+                    176,
+                    12,
+                    16,
+                    36,
+                    2832,
+                    2952,
+                    124,
+                    4,
+                    160,
+                    0,
+                    328,
+                    68,
+                    68,
+                    40,
+                    596,
+                    620,
+                    32,
+                    232,
+                    60,
+                    68,
+                    124,
+                    512,
+                    284,
+                    104,
+                    76,
+                    84,
+                    376,
+                    2940,
+                    572,
+                    68,
+                    28,
+                    168,
+                    60
+                ]
+            },
+            "retpoline": {
+                "call_sites": [],
+                "has_retpoline": false
+            },
+            "sandbox_calls": {
+                "sandbox_func_dict": {}
+            },
+            "scop": {
+                "load_count": 2
+            },
+            "section_stats": {
+                "data_entropy": [],
+                "data_flags": [],
+                "data_size": 0,
+                "text_entropy": [
+                    [
+                        0,
+                        1916
+                    ],
+                    [
+                        1,
+                        228
+                    ],
+                    [
+                        2,
+                        119
+                    ],
+                    [
+                        3,
+                        124
+                    ],
+                    [
+                        4,
+                        185
+                    ],
+                    [
+                        5,
+                        51
+                    ],
+                    [
+                        6,
+                        67
+                    ],
+                    [
+                        7,
+                        81
+                    ],
+                    [
+                        8,
+                        124
+                    ],
+                    [
+                        9,
+                        38
+                    ],
+                    [
+                        10,
+                        99
+                    ],
+                    [
+                        11,
+                        80
+                    ],
+                    [
+                        12,
+                        104
+                    ],
+                    [
+                        13,
+                        7
+                    ],
+                    [
+                        14,
+                        46
+                    ],
+                    [
+                        15,
+                        34
+                    ],
+                    [
+                        16,
+                        468
+                    ],
+                    [
+                        17,
+                        33
+                    ],
+                    [
+                        18,
+                        20
+                    ],
+                    [
+                        19,
+                        40
+                    ],
+                    [
+                        20,
+                        87
+                    ],
+                    [
+                        21,
+                        20
+                    ],
+                    [
+                        22,
+                        13
+                    ],
+                    [
+                        23,
+                        11
+                    ],
+                    [
+                        24,
+                        52
+                    ],
+                    [
+                        25,
+                        6
+                    ],
+                    [
+                        26,
+                        51
+                    ],
+                    [
+                        27,
+                        15
+                    ],
+                    [
+                        28,
+                        49
+                    ],
+                    [
+                        29,
+                        3
+                    ],
+                    [
+                        30,
+                        32
+                    ],
+                    [
+                        31,
+                        35
+                    ],
+                    [
+                        32,
+                        282
+                    ],
+                    [
+                        33,
+                        24
+                    ],
+                    [
+                        34,
+                        15
+                    ],
+                    [
+                        35,
+                        13
+                    ],
+                    [
+                        36,
+                        33
+                    ],
+                    [
+                        37,
+                        11
+                    ],
+                    [
+                        38,
+                        11
+                    ],
+                    [
+                        39,
+                        14
+                    ],
+                    [
+                        40,
+                        34
+                    ],
+                    [
+                        41,
+                        17
+                    ],
+                    [
+                        42,
+                        24
+                    ],
+                    [
+                        43,
+                        33
+                    ],
+                    [
+                        44,
+                        38
+                    ],
+                    [
+                        45,
+                        56
+                    ],
+                    [
+                        46,
+                        13
+                    ],
+                    [
+                        47,
+                        32
+                    ],
+                    [
+                        48,
+                        276
+                    ],
+                    [
+                        49,
+                        30
+                    ],
+                    [
+                        50,
+                        13
+                    ],
+                    [
+                        51,
+                        7
+                    ],
+                    [
+                        52,
+                        51
+                    ],
+                    [
+                        53,
+                        5
+                    ],
+                    [
+                        54,
+                        9
+                    ],
+                    [
+                        55,
+                        14
+                    ],
+                    [
+                        56,
+                        52
+                    ],
+                    [
+                        57,
+                        8
+                    ],
+                    [
+                        58,
+                        6
+                    ],
+                    [
+                        59,
+                        6
+                    ],
+                    [
+                        60,
+                        29
+                    ],
+                    [
+                        61,
+                        2
+                    ],
+                    [
+                        62,
+                        1
+                    ],
+                    [
+                        63,
+                        12
+                    ],
+                    [
+                        64,
+                        134
+                    ],
+                    [
+                        65,
+                        37
+                    ],
+                    [
+                        66,
+                        11
+                    ],
+                    [
+                        67,
+                        16
+                    ],
+                    [
+                        68,
+                        36
+                    ],
+                    [
+                        69,
+                        7
+                    ],
+                    [
+                        70,
+                        7
+                    ],
+                    [
+                        71,
+                        16
+                    ],
+                    [
+                        72,
+                        29
+                    ],
+                    [
+                        73,
+                        9
+                    ],
+                    [
+                        74,
+                        8
+                    ],
+                    [
+                        75,
+                        11
+                    ],
+                    [
+                        76,
+                        16
+                    ],
+                    [
+                        77,
+                        35
+                    ],
+                    [
+                        78,
+                        7
+                    ],
+                    [
+                        79,
+                        13
+                    ],
+                    [
+                        80,
+                        141
+                    ],
+                    [
+                        81,
+                        54
+                    ],
+                    [
+                        82,
+                        17
+                    ],
+                    [
+                        83,
+                        26
+                    ],
+                    [
+                        84,
+                        17
+                    ],
+                    [
+                        85,
+                        9
+                    ],
+                    [
+                        86,
+                        7
+                    ],
+                    [
+                        87,
+                        6
+                    ],
+                    [
+                        88,
+                        19
+                    ],
+                    [
+                        89,
+                        13
+                    ],
+                    [
+                        90,
+                        12
+                    ],
+                    [
+                        91,
+                        20
+                    ],
+                    [
+                        92,
+                        43
+                    ],
+                    [
+                        93,
+                        4
+                    ],
+                    [
+                        94,
+                        25
+                    ],
+                    [
+                        95,
+                        2
+                    ],
+                    [
+                        96,
+                        81
+                    ],
+                    [
+                        97,
+                        15
+                    ],
+                    [
+                        98,
+                        17
+                    ],
+                    [
+                        99,
+                        18
+                    ],
+                    [
+                        100,
+                        26
+                    ],
+                    [
+                        101,
+                        5
+                    ],
+                    [
+                        102,
+                        23
+                    ],
+                    [
+                        103,
+                        4
+                    ],
+                    [
+                        104,
+                        26
+                    ],
+                    [
+                        105,
+                        4
+                    ],
+                    [
+                        106,
+                        5
+                    ],
+                    [
+                        107,
+                        36
+                    ],
+                    [
+                        108,
+                        18
+                    ],
+                    [
+                        109,
+                        3
+                    ],
+                    [
+                        110,
+                        16
+                    ],
+                    [
+                        111,
+                        2
+                    ],
+                    [
+                        112,
+                        74
+                    ],
+                    [
+                        113,
+                        15
+                    ],
+                    [
+                        114,
+                        5
+                    ],
+                    [
+                        115,
+                        4
+                    ],
+                    [
+                        116,
+                        7
+                    ],
+                    [
+                        117,
+                        5
+                    ],
+                    [
+                        118,
+                        4
+                    ],
+                    [
+                        119,
+                        2
+                    ],
+                    [
+                        120,
+                        10
+                    ],
+                    [
+                        121,
+                        4
+                    ],
+                    [
+                        122,
+                        9
+                    ],
+                    [
+                        123,
+                        63
+                    ],
+                    [
+                        124,
+                        15
+                    ],
+                    [
+                        125,
+                        1
+                    ],
+                    [
+                        126,
+                        4
+                    ],
+                    [
+                        127,
+                        1
+                    ],
+                    [
+                        128,
+                        136
+                    ],
+                    [
+                        129,
+                        31
+                    ],
+                    [
+                        130,
+                        14
+                    ],
+                    [
+                        131,
+                        36
+                    ],
+                    [
+                        132,
+                        216
+                    ],
+                    [
+                        133,
+                        12
+                    ],
+                    [
+                        134,
+                        16
+                    ],
+                    [
+                        135,
+                        9
+                    ],
+                    [
+                        136,
+                        23
+                    ],
+                    [
+                        137,
+                        14
+                    ],
+                    [
+                        138,
+                        10
+                    ],
+                    [
+                        139,
+                        14
+                    ],
+                    [
+                        140,
+                        33
+                    ],
+                    [
+                        141,
+                        278
+                    ],
+                    [
+                        142,
+                        18
+                    ],
+                    [
+                        143,
+                        179
+                    ],
+                    [
+                        144,
+                        124
+                    ],
+                    [
+                        145,
+                        17
+                    ],
+                    [
+                        146,
+                        9
+                    ],
+                    [
+                        147,
+                        24
+                    ],
+                    [
+                        148,
+                        178
+                    ],
+                    [
+                        149,
+                        28
+                    ],
+                    [
+                        150,
+                        16
+                    ],
+                    [
+                        151,
+                        8
+                    ],
+                    [
+                        152,
+                        16
+                    ],
+                    [
+                        154,
+                        5
+                    ],
+                    [
+                        155,
+                        9
+                    ],
+                    [
+                        156,
+                        18
+                    ],
+                    [
+                        157,
+                        118
+                    ],
+                    [
+                        158,
+                        7
+                    ],
+                    [
+                        159,
+                        234
+                    ],
+                    [
+                        160,
+                        549
+                    ],
+                    [
+                        161,
+                        16
+                    ],
+                    [
+                        162,
+                        4
+                    ],
+                    [
+                        163,
+                        6
+                    ],
+                    [
+                        164,
+                        10
+                    ],
+                    [
+                        165,
+                        5
+                    ],
+                    [
+                        166,
+                        6
+                    ],
+                    [
+                        167,
+                        1
+                    ],
+                    [
+                        168,
+                        16
+                    ],
+                    [
+                        169,
+                        6
+                    ],
+                    [
+                        170,
+                        19
+                    ],
+                    [
+                        171,
+                        11
+                    ],
+                    [
+                        172,
+                        21
+                    ],
+                    [
+                        173,
+                        1
+                    ],
+                    [
+                        174,
+                        5
+                    ],
+                    [
+                        175,
+                        1
+                    ],
+                    [
+                        176,
+                        77
+                    ],
+                    [
+                        177,
+                        17
+                    ],
+                    [
+                        178,
+                        18
+                    ],
+                    [
+                        179,
+                        8
+                    ],
+                    [
+                        180,
+                        30
+                    ],
+                    [
+                        181,
+                        11
+                    ],
+                    [
+                        182,
+                        2
+                    ],
+                    [
+                        183,
+                        2
+                    ],
+                    [
+                        184,
+                        41
+                    ],
+                    [
+                        185,
+                        3
+                    ],
+                    [
+                        186,
+                        26
+                    ],
+                    [
+                        187,
+                        2
+                    ],
+                    [
+                        188,
+                        21
+                    ],
+                    [
+                        189,
+                        47
+                    ],
+                    [
+                        190,
+                        4
+                    ],
+                    [
+                        191,
+                        2
+                    ],
+                    [
+                        192,
+                        175
+                    ],
+                    [
+                        193,
+                        25
+                    ],
+                    [
+                        194,
+                        12
+                    ],
+                    [
+                        195,
+                        17
+                    ],
+                    [
+                        196,
+                        28
+                    ],
+                    [
+                        197,
+                        15
+                    ],
+                    [
+                        198,
+                        12
+                    ],
+                    [
+                        199,
+                        21
+                    ],
+                    [
+                        200,
+                        30
+                    ],
+                    [
+                        201,
+                        10
+                    ],
+                    [
+                        202,
+                        25
+                    ],
+                    [
+                        203,
+                        13
+                    ],
+                    [
+                        204,
+                        14
+                    ],
+                    [
+                        205,
+                        22
+                    ],
+                    [
+                        206,
+                        6
+                    ],
+                    [
+                        207,
+                        5
+                    ],
+                    [
+                        208,
+                        72
+                    ],
+                    [
+                        209,
+                        4
+                    ],
+                    [
+                        210,
+                        4
+                    ],
+                    [
+                        211,
+                        14
+                    ],
+                    [
+                        212,
+                        18
+                    ],
+                    [
+                        213,
+                        4
+                    ],
+                    [
+                        214,
+                        4
+                    ],
+                    [
+                        215,
+                        6
+                    ],
+                    [
+                        216,
+                        18
+                    ],
+                    [
+                        217,
+                        2
+                    ],
+                    [
+                        218,
+                        34
+                    ],
+                    [
+                        219,
+                        17
+                    ],
+                    [
+                        220,
+                        15
+                    ],
+                    [
+                        221,
+                        18
+                    ],
+                    [
+                        222,
+                        5
+                    ],
+                    [
+                        223,
+                        2
+                    ],
+                    [
+                        224,
+                        449
+                    ],
+                    [
+                        225,
+                        389
+                    ],
+                    [
+                        226,
+                        261
+                    ],
+                    [
+                        227,
+                        414
+                    ],
+                    [
+                        228,
+                        14
+                    ],
+                    [
+                        229,
+                        942
+                    ],
+                    [
+                        230,
+                        2
+                    ],
+                    [
+                        231,
+                        34
+                    ],
+                    [
+                        232,
+                        95
+                    ],
+                    [
+                        233,
+                        39
+                    ],
+                    [
+                        234,
+                        85
+                    ],
+                    [
+                        235,
+                        277
+                    ],
+                    [
+                        236,
+                        53
+                    ],
+                    [
+                        237,
+                        48
+                    ],
+                    [
+                        238,
+                        159
+                    ],
+                    [
+                        239,
+                        11
+                    ],
+                    [
+                        240,
+                        48
+                    ],
+                    [
+                        241,
+                        18
+                    ],
+                    [
+                        242,
+                        4
+                    ],
+                    [
+                        243,
+                        8
+                    ],
+                    [
+                        244,
+                        21
+                    ],
+                    [
+                        245,
+                        12
+                    ],
+                    [
+                        246,
+                        8
+                    ],
+                    [
+                        247,
+                        21
+                    ],
+                    [
+                        248,
+                        33
+                    ],
+                    [
+                        249,
+                        12
+                    ],
+                    [
+                        250,
+                        44
+                    ],
+                    [
+                        251,
+                        42
+                    ],
+                    [
+                        252,
+                        43
+                    ],
+                    [
+                        253,
+                        43
+                    ],
+                    [
+                        254,
+                        46
+                    ],
+                    [
+                        255,
+                        498
+                    ]
+                ],
+                "text_flags": [
+                    "SHF_ALLOC",
+                    "SHF_EXECINSTR"
+                ],
+                "text_size": 14416
+            },
+            "spectrewidget": null,
+            "stack_guards": {
+                "stack_guard_calls": [
+                    5756,
+                    6232,
+                    8936,
+                    9960,
+                    11180,
+                    11820,
+                    12336
+                ]
+            },
+            "stack_stats": {
+                "stack_adjs": [
+                    52,
+                    16,
+                    8,
+                    8,
+                    32,
+                    64,
+                    16,
+                    140,
+                    8,
+                    60,
+                    28,
+                    24,
+                    20,
+                    68,
+                    24,
+                    24,
+                    172,
+                    104,
+                    180,
+                    8,
+                    8,
+                    68,
+                    40,
+                    16,
+                    1072,
+                    4,
+                    108
+                ]
+            },
+            "stripped": {
+                "has_dynamic_seg": true,
+                "has_sections": true
+            },
+            "symbols": {
+                "count": 43
+            }
+        }
+    ],
+    "filename": "s62xd",
+    "filesize": 26024,
+    "magic": "7f454c46",
+    "md5": "91cc0c55a220a535c776cead211249c0",
+    "sha256": "8dedeb4b0ad06bd4d1d3cbdd11f4f4c6a0c7c63107ab17b4d1450eebca278d41"
+}
