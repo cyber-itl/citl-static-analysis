@@ -3,7 +3,7 @@ include(define-test.cmake)
 FetchContent_Declare(
     TestBins
     GIT_REPOSITORY git@github.com:cyber-itl/static-test-bins.git
-    GIT_TAG        3ea2ae335b457602ca74f83ad14c418037d87374)
+    GIT_TAG        2481c24fcd508e84f45015bdcdf274b318dc1346)
 FetchContent_MakeAvailable(TestBins)
 FetchContent_GetProperties(TestBins SOURCE_DIR testbin_src_dir)
 
