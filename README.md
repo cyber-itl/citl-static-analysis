@@ -147,13 +147,6 @@ cd citl-static-analysis
 ls README.md
 ```
 
-We then populate this repository's `git` submodules:
-
-```bash
-git submodule init
-git submodule update
-```
-
 Now we decide between performing a `Release` or a `Debug` build. In what follows
 we will perform a `Release` build. To that end, we create a build directory and
 change into it:
